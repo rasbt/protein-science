@@ -34,7 +34,7 @@ E.g.,
 	-smarts C1CCC2C(C1)CCC3C4CCCC4CCC2
 
 **Tip:**  
-If your query is a multimol2-file, you can use the Python script [./Scripts/split_multimol2.py](split_multimol2.py) to split it into individual mol2 files:
+If your query is a multimol2-file, you can use the Python script [split_multimol2.py](./Scripts/split_multimol2.py) to split it into individual mol2 files:
 
 	USAGE: python3 multimol2.mol2 output_directory
 
