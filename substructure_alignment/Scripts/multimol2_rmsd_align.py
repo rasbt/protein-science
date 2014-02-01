@@ -11,7 +11,7 @@ RMSD_TOOL = "/soft/linux64/.../oechem-utilities/rmsd"       # put the correct pa
 
 
 try:
-    assert len(sys.argv) == 5
+    assert len(sys.argv) == 4
     INPUT_DIR = sys.argv[1]
     TARGET_DIR = sys.argv[2]
     REFERENCE_MOL = sys.argv[3]
