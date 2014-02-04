@@ -35,6 +35,7 @@ def split_multimol2(multimol2):
                     mol2cont += line
                     line = mol2file.readline()
                     if mol2file.tell() == os.fstat(mol2file.fileno()).st_size:
+                        mol2cont += line
                         break
                 
                 single_mol2s.append([molecule_id, mol2cont])
