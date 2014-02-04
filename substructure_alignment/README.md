@@ -1,4 +1,3 @@
-
 #Substructure Alignment Using OpenEye OEChem RMSD
 
 
@@ -29,7 +28,7 @@ E.g.,
 	-in /home/.../ query.mol2\ 
 	-ref ~/Desktop/reference_molecule.mol2\
 	-overlay\
-	-out /home/.../3KPZS_27.mol2\ 	
+	-out /home/.../output.mol2\ 	
 	-automorph false\
 	-smarts C1CCC2C(C1)CCC3C4CCCC4CCC2
 
@@ -40,7 +39,7 @@ If your query is a multimol2-file, you can use the Python script [split_multimol
 
 And to automate the RMSD substructure alignment over the individual mol2 files, you can use the script [multimol2_rmsd_align.py](./Scripts/multimol2_rmsd_align.py) where you just have to modify the path to your OpenEye RMSD executable.
 
-	USAGE: python3 mmol2_rmsd_align.py input_dir/ output_dir/ ref.mol2
+	USAGE: python3 mmol2_rmsd_align.py input_dir/ output_dir/ ref.mol2 smiles_string
 
 Finally, you can concatenate the resulting alignments back into one single multi-mol2 file via
 
