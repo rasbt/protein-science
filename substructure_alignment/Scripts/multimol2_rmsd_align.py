@@ -27,4 +27,4 @@ try:
 	    RMSD_TOOL, in_mol, REFERENCE_MOL, out_mol, SMILES), shell=True)
 
 except:
-    print("ERROR\nUSAGE: python3 mmol2_rmsd_align.py input_dir/ output_dir/ ref.mol2")
+    print("ERROR\nUSAGE: python3 mmol2_rmsd_align.py input_dir/ output_dir/ ref.mol2 smiles_string")
