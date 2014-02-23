@@ -29,14 +29,14 @@ For this example, I randomly picked a steroid-ring containing structure from the
 4. Save substructure as PDB file: File -> Save Molecule...
 
 #### Reference molecule (ZINC80135621)
-![](./Images/reference_molecule.png =350x)
+![](./Images/reference_molecule.png)
 
-![](./Images/pymol_copy_substructure.png =450x)
+![](./Images/pymol_copy_substructure.png)
 
 
 #### Reference substructure
 
-![](./Images/reference_substructure.png =350x)
+![](./Images/reference_substructure.png)
 
 
 ## 2) Convert substructure into SMILES 
