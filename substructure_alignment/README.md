@@ -39,7 +39,7 @@ For this example, I randomly picked a steroid-ring containing structure from the
 ![](./Images/reference_substructure.png)
 
 
-## 2) Convert substructure into SMILES 
+### 2) Convert substructure into SMILES 
 
 I recommend to use the free online SMILES translator at [http://cactus.nci.nih.gov/translate/](http://cactus.nci.nih.gov/translate/) to upload your converted substructure as PDB file in order to obtain the corresponding SMILES string.  
 
@@ -47,7 +47,7 @@ Alternatively, you can also draw the substructure via the "Search Structure" mol
 For such a simple substructure like this steroid-ring construct, it would also probably be the more convenient approach.
 
 
-## 3) Use OpenEye's RMSD tool
+### 3) Use OpenEye's RMSD tool
 
 Run OpenEye's OEChem RMSD tool to align target molecules to the reference molecule based on the extracted substructure. The aligned pairs will be written to a new file. The command-line syntax for a typical usage of the OEChem RMSD toll could be: 
 
@@ -58,8 +58,32 @@ Run OpenEye's OEChem RMSD tool to align target molecules to the reference molecu
 	-out /home/.../output.mol2\ 	
 	-automorph false\
 	-smarts C1CCC2C(C1)CCC3C4CCCC4CCC2
+	
+**More details** about the different parameters (from `.../oechem-utilities/rmsd --help`):	
+	
+	rmsd -in <filename> -ref <reference filename>
 
-## 4) Some helpful scripts to automate the workflow
+	Options:
+     -automorph (default false): assign best atom association. By setting
+      this option to true, rmsd will ignore atom names and orders present in the
+      file and will use structural and chemical information to make the best
+      matches.  This should fix the problem of abnormally high RMSD values for
+      symmetric molecules/functional groups that have been rotated.
+
+     -heavyonly (default true): ignores hydrogens in rmsd calculation
+
+     -overlay (default true): performs a least squares fit and superimposes
+      the molecules prior to making the RMSD calculation.
+
+     -origconfout : output original conformation too
+
+     -out : output file name
+
+     -refout : output reference mol
+
+     -smarts : rmsd of corresponding matched atoms only
+
+### 4) Some helpful scripts to automate the workflow
 
 #### 4 a) Python script to split a multi-mol2 file
 
