@@ -4,7 +4,7 @@
 # writes the aligned targets to the hard drive.
 #
 # USAGE from command shell command line:
-# %> python3 mmol2_rmsd_align.py input_dir/ output_dir/ ref.mol2 smiles_string
+# %> python3 multimol2_rmsd_align.py input_dir/ output_dir/ ref.mol2 smiles_string
 
 import subprocess
 import os
@@ -30,4 +30,4 @@ try:
 	    RMSD_TOOL, in_mol, REFERENCE_MOL, out_mol, SMILES), shell=True)
 
 except:
-    print("ERROR\nUSAGE: python3 mmol2_rmsd_align.py input_dir/ output_dir/ ref.mol2 smiles_string")
+    print("ERROR\nUSAGE: python3 multimol2_rmsd_align.py input_dir/ output_dir/ ref.mol2 smiles_string")
