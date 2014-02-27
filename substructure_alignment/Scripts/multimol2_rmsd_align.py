@@ -2,6 +2,9 @@
 #
 # Aligns multiple mol2 files to a reference mol2 files and
 # writes the aligned targets to the hard drive.
+#
+# USAGE from command shell command line:
+# %> python3 mmol2_rmsd_align.py input_dir/ output_dir/ ref.mol2 smiles_string
 
 import subprocess
 import os
