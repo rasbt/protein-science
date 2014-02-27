@@ -1,6 +1,9 @@
 # Sebastian Raschka 01/10/2014
-
+#
 # Splits a multi-mol2 file into individual mol2 files.
+#
+# USAGE from command shell command line:
+# %> python3 multimol2.mol2 output_directory
 
 import sys
 import os
