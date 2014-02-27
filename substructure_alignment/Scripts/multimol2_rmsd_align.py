@@ -26,7 +26,7 @@ try:
     for i in [m for m in os.listdir(INPUT_DIR) if m.endswith('.mol2')]:
         in_mol = INPUT_DIR + '/' + i
         out_mol = TARGET_DIR + '/' + i
-        subprocess.call("{} -in {} -ref {} -overlay -out {} -smarts {}".format(
+        subprocess.call("{} -in {} -ref {} -overlay -out {} -smarts '{}'".format(
 	    RMSD_TOOL, in_mol, REFERENCE_MOL, out_mol, SMILES), shell=True)
 
 except:
