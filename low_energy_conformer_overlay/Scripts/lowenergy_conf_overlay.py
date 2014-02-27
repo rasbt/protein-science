@@ -1,3 +1,8 @@
+# Sebastian Raschka, 02/2014
+# Script to run OpenEye OMEGA2 and ROCS command line tools.
+# File directories and paths to the OpenEye executables need to be
+# adjusted in the main (if __name__ == '__main__':) function.
+
 import os
 import subprocess
 import time
