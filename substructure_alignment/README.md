@@ -57,7 +57,7 @@ Run OpenEye's OEChem RMSD tool to align target molecules to the reference molecu
 	-overlay\
 	-out /home/.../output.mol2\ 	
 	-automorph false\
-	-smarts C1CCC2C(C1)CCC3C4CCCC4CCC2
+	-smarts C1CCC2C(C1)CCC3C4CCCC4CCC23
 	
 **More details** about the different parameters (from `.../oechem-utilities/rmsd --help`):	
 	
