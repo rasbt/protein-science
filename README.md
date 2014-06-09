@@ -53,6 +53,14 @@ Please visit [`scripts-and-tools`](./scripts-and-tools) subdirectory for documen
 <hr>
 <hr>
 
+# [Protein Science Glossary](./glossary/README.md)
+
+<br>
+<br>
+
+<hr>
+<hr>
+
 # Useful Links
 
 - [ZINC](http://zinc.docking.org)  
