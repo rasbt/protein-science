@@ -39,6 +39,16 @@ Please visit [`scripts-and-tools`](./scripts-and-tools) subdirectory for documen
 <br>
 <br>
 
+<br>
+<br>
+
+<hr>
+<hr>
+
+# [Recommended Literature](./literature/README.md)
+
+<br>
+<br>
 
 <hr>
 <hr>
