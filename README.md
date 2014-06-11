@@ -1,4 +1,5 @@
 
+
 # Tutorials
 
 <a id='sections'></a>
@@ -24,7 +25,7 @@ Tutorial and script to generate low-energy conformers of query and target molecu
 
 
 <hr>
-<hr>
+
 
 # Scripts and Tools
 
@@ -39,11 +40,18 @@ Please visit [`scripts-and-tools`](./scripts-and-tools) subdirectory for documen
 <br>
 <br>
 
+<hr>
+
+
+# Info Sheets
+
+- Iridium dataset of high-quality protein structures [PDB code quickreference](./info_sheets/Iridium_pdb_codes.md)
+
 <br>
 <br>
 
 <hr>
-<hr>
+
 
 # [Recommended Literature](./literature/README.md)
 
@@ -51,7 +59,7 @@ Please visit [`scripts-and-tools`](./scripts-and-tools) subdirectory for documen
 <br>
 
 <hr>
-<hr>
+
 
 # [Protein Science Glossary](./glossary/README.md)
 
@@ -59,7 +67,7 @@ Please visit [`scripts-and-tools`](./scripts-and-tools) subdirectory for documen
 <br>
 
 <hr>
-<hr>
+
 
 # Useful Links
 
