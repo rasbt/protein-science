@@ -1,4 +1,24 @@
+#### About this repository
 
+During my work and hobbies, I started accumulating useful material about different topics in Protein-Science, which I wanted to collect in a central place and share with others in hope that it might serve as a useful reference one day.
+
+<br>
+<br>
+
+#### I am looking forward to your contributions, suggestions, and ideas
+
+If you have any suggestions or want to make additions, I would be very happy if you could send me  
+
+- an [email](mailto:se.raschka@gmail.com),  
+- leave me a message on [google+](https://plus.google.com/118404394130788869227/),   
+- or even send me a tweet on [twitter](https://twitter.com/rasbt) (given you can fit it within the 140 character limit ;)).  
+
+Or even better: It would be great if you would simply fork this project and send me a pull request.
+
+<br>
+<br>
+<br>
+<br>
 
 # Tutorials
 
