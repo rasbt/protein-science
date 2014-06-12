@@ -19,31 +19,35 @@ The database is freely available at [http://www.eyesopen.com/iridium](http://www
 
 #### Highly Trustworthy (Iridium HT): 121 structures
 
-1a28, 1ai5, 1azm, 1b9v, 1br6, 1c1b, 1ctr, 1cvu, 1cx2, 1d3h, 1dd7
-1dds, 1eoc, 1exa, 1ezq, 1f0s, 1f0t, 1f0u, 1fcx, 1fcz, 1fh8, 1fh9
-1fhd, 1fjs, 1fl3, 1fm6, 1fm9, 1fq5, 1frp, 1fvt, 1g9v, 1gm8, 1gwx
-1h1p, 1h1s, 1hdy, 1hgg, 1hgh, 1hgi, 1hgj, 1hnn, 1hp0, 1hq2, 1hvy
-1hwi, 1hww, 1ivb, 1ivd, 1ive, 1ivf, 1iy7, 1jd0, 1jla, 1k1j, 1k3u
-1ke5, 1l2s, 1l7f, 1lpz, 1lqd, 1lrh, 1m2z, 1mbi, 1ml1, 1mmv, 1mq6
-1mts, 1mzc, 1n1m, 1n2j, 1n2v, 1nav, 1of1, 1of6, 1oq5, 1owe, 1oyt
-1p2y, 1p62, 1pbd, 1pmn, 1pso, 1q1g, 1q41, 1qhi, 1r58, 1r9o, 1rob
-1s19, 1sq5, 1tow, 1tt1, 1u4d, 1ukz, 1ulb, 1uml, 1unl, 1uou, 1v0p
-1w1p, 1w2g, 1x8x, 1xm6, 1xoq, 1ydr, 1yds, 1ydt, 1yqy, 1yv3, 1yvf
-1ywr, 2ack, 2br1, 2ctc, 2mcp, 2pcp, 2tmn, 3ptb, 4aah, 4cox, 4ts1
+1A28, 1AI5, 1AZM, 1B9V, 1BR6, 1C1B, 1CTR, 1CVU, 1CX2, 1D3H, 
+1DD7, 1DDS, 1EOC, 1EXA, 1EZQ, 1F0S, 1F0T, 1F0U, 1FCX, 1FCZ, 
+1FH8, 1FH9, 1FHD, 1FJS, 1FL3, 1FM6, 1FM9, 1FQ5, 1FRP, 1FVT, 
+1G9V, 1GM8, 1GWX, 1H1P, 1H1S, 1HDY, 1HGG, 1HGH, 1HGI, 1HGJ, 
+1HNN, 1HP0, 1HQ2, 1HVY, 1HWI, 1HWW, 1IVB, 1IVD, 1IVE, 1IVF, 
+1IY7, 1JD0, 1JLA, 1K1J, 1K3U, 1KE5, 1L2S, 1L7F, 1LPZ, 1LQD, 
+1LRH, 1M2Z, 1MBI, 1ML1, 1MMV, 1MQ6, 1MTS, 1MZC, 1N1M, 1N2J, 
+1N2V, 1NAV, 1OF1, 1OF6, 1OQ5, 1OWE, 1OYT, 1P2Y, 1P62, 1PBD, 
+1PMN, 1PSO, 1Q1G, 1Q41, 1QHI, 1R58, 1R9O, 1ROB, 1S19, 1SQ5, 
+1TOW, 1TT1, 1U4D, 1UKZ, 1ULB, 1UML, 1UNL, 1UOU, 1V0P, 1W1P, 
+1W2G, 1X8X, 1XM6, 1XOQ, 1YDR, 1YDS, 1YDT, 1YQY, 1YV3, 1YVF, 
+1YWR, 2ACK, 2BR1, 2CTC, 2MCP, 2PCP, 2TMN, 3PTB, 4AAH, 4COX, 
+4TS1
 
 #### Mildly Trustworthy (Iridium MT): 104 structures
 
-13gs, 1a07, 1a1b, 1a1e, 1a4k, 1a8t, 1afq, 1ake, 1avd, 1b59, 1b6j, 1b6k, 1b6l,
-1b6m, 1bkm, 1bmq, 1c2t, 1c3i, 1c5c, 1c5p, 1c5x, 1cbs, 1cde, 1cdg, 1cet, 1coy,
-1cqp, 1ctt, 1d0l, 1dib, 1dy9, 1eve, 1f0r, 1fbl, 1gkc, 1gpk, 1gsp, 1hbv, 1i7z,
-1ia1, 1ibg, 1icn, 1ig3, 1igj, 1ivc, 1j3j, 1jje, 1k7e, 1k7f, 1kel, 1kzk, 1lmo,
-1lpm, 1lyl, 1m48, 1meh, 1mq5, 1mrg, 1mrk, 1mtw, 1n46, 1nhu, 1nhv, 1odw, 1opk,
-1pgp, 1q4g, 1qh7, 1r1h, 1r55, 1rnt, 1s3v, 1sg0, 1sj0, 1sln, 1snc, 1sqn, 1t40,
-1t46, 1t9b, 1thl, 1thy, 1tlp, 1tpp, 1tz8, 1u1c, 1v48, 1v4s, 1vcj, 1xoz, 1y6b,
-1ygc, 1z95, 25c8, 2ada, 2bm2, 2bsm, 2tpi, 3tpi, 4hmg, 4tmn, 5tim, 5tmn, 6tmn
+13GS, 1A07, 1A1B, 1A1E, 1A4K, 1A8T, 1AFQ, 1AKE, 1AVD, 1B59, 
+1B6J, 1B6K, 1B6L, 1B6M, 1BKM, 1BMQ, 1C2T, 1C3I, 1C5C, 1C5P, 
+1C5X, 1CBS, 1CDE, 1CDG, 1CET, 1COY, 1CQP, 1CTT, 1D0L, 1DIB, 
+1DY9, 1EVE, 1F0R, 1FBL, 1GKC, 1GPK, 1GSP, 1HBV, 1I7Z, 1IA1, 
+1IBG, 1ICN, 1IG3, 1IGJ, 1IVC, 1J3J, 1JJE, 1K7E, 1K7F, 1KEL, 
+1KZK, 1LMO, 1LPM, 1LYL, 1M48, 1MEH, 1MQ5, 1MRG, 1MRK, 1MTW, 
+1N46, 1NHU, 1NHV, 1ODW, 1OPK, 1PGP, 1Q4G, 1QH7, 1R1H, 1R55, 
+1RNT, 1S3V, 1SG0, 1SJ0, 1SLN, 1SNC, 1SQN, 1T40, 1T46, 1T9B, 
+1THL, 1THY, 1TLP, 1TPP, 1TZ8, 1U1C, 1V48, 1V4S, 1VCJ, 1XOZ, 
+1Y6B, 1YGC, 1Z95, 25C8, 2ADA, 2BM2, 2BSM, 2TPI, 3TPI, 4HMG, 
+4TMN, 5TIM, 5TMN, 6TMN
 
 
 #### Not Trustworthy (Iridium NT): 8 structures
 
-
-1aj7, 1atl, 1eta, 1r09, 1vgc, 1vrh, 2r04, 2r07
+1AJ7, 1ATL, 1ETA, 1R09, 1VGC, 1VRH, 2R04, 2R07
