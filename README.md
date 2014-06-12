@@ -35,6 +35,10 @@ Useful scripts for working with protein files in FASTA, PDB, and MOL2 formats
 
 Please visit [`scripts-and-tools`](./scripts-and-tools) subdirectory for documentation and examples.
 
+#### Other tools
+- **[smilite](https://github.com/rasbt/smilite)** - a Python module to download and analyze SMILE strings (Simplified Molecular-Input Line-entry System) of chemical compounds from ZINC
+
+- **[pyprot](https://github.com/rasbt/pyprot)** - a Python package for working with protein structure files formats. It comes with a collection of ready-to-use scripts for the most common file operations and protein analyses.
 
 <br>
 <br>
