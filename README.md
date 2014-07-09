@@ -14,8 +14,8 @@ During my work and hobbies, I started accumulating useful material about differe
     - [Low-Energy Conformer Generation and Overlay](#low-energy-conformer-generation-and-overlay)
 - [Scripts and Tools](#scripts-and-tools)
 - [Info Sheets](#info-sheets)
-- [Recommended Literature](#recommended-literature-literature-readme-md)
-- [Protein Science Glossary](#protein-science-glossary-glossary-readme-md)
+- [Recommended Literature](#recommended-literature)
+- [Protein Science Glossary](#protein-science-glossary)
 - [Useful Links](#useful-links)
 
 
