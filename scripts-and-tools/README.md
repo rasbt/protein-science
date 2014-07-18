@@ -1,26 +1,31 @@
 
 Useful scripts for working with protein files in FASTA, PDB, and MOL2 formats
 
-
-# Contents
-### [Analysis](#analysis)
-- [openeye_rmsd_align.py](#openeye_rmsd_align.py)
-
-### [File Conversion](#file_conversion)  
-- [pymol_mol2_to_pdb.py](#pymol_mol2_to_pdb.py)
-- [pdb_to_fasta.py](#pdb_to_fasta.py)  
-
-### [File Processing](#file_processing)  
-- [fix_atomname.col.py](#fix_atomname_col.py)
-- [fasta_splitter.py](#fasta_splitter.py)
+###Table of Contents
+- [Analysis](#analysis)
+    - [`openeye_rmsd_align.py`](#openeye_rmsd_align-py)
+- [File Conversion](#file-conversion)
+    - [`pymol_mol2_to_pdb.py`](#pymol_mol2_to_pdb-py)
+    - [`pdb_to_fasta.py`](#pdb_to_fasta-py)
+- [File Processing](#file-processing)
+    - [`fix_atomname_col.py`](#fix_atomname_col-py)
+    - [`fasta_splitter.py`](#fasta_splitter-py)
 
 
-<a id="analysis"></a>
-# Analysis
 
-<a id="openeye_rmsd_align.py"></a>
+
+
+<br>
+<br>
+
+## Analysis
+[[back to top](#table-of-contents)]
+
+<br>
+<br>
 
 ### `openeye_rmsd_align.py`
+[[back to top](#table-of-contents)]
 
 **usage**: `python openeye_rmsd_align.py`  
 <br />
@@ -64,12 +69,17 @@ Choose an output directory
 
 </pre>
 
+<br>
+<br>
 
-<a id="file_converstion"></a>
-# File Conversion
+## File Conversion
+[[back to top](#table-of-contents)]
 
-<a id="pymol_mol2_to_pdb.py"></a>
+<br>
+<br>
+
 ### `pymol_mol2_to_pdb.py`
+[[back to top](#table-of-contents)]
 
 **usage**: `python pymol_mol2_to_pdb.py`  
 <br />
@@ -78,23 +88,27 @@ from .mol2 into .pdb file format.
 Prompts user for an input directory of MOL2 files and an  
 output directory for PDB files.  
 
-<a id="pdb_to_fasta.py"></a>
+<br>
+<br>
+
 ### `pdb_to_fasta.py`
+[[back to top](#table-of-contents)]
 The PDB to FASTA converter converts a protein structure file  
  into a linear protein amino acid sequence file. For more information  
  about the usage, please visit: http://sebastianraschka.com/Software/pdb_to_fasta_desktop.html
 
 
+<br>
+<br>
 
-<a id="file_processing"></a>
-# File Processing
+## File Processing
+[[back to top](#table-of-contents)]
 
+<br>
+<br>
 
-
-
-
-<a id="fix_atomname_col.py"></a>
 ### `fix_atomname_col.py`
+[[back to top](#table-of-contents)]
 
 **usage**: `python fix_atomname_col.py`  
 <br />
@@ -124,11 +138,11 @@ ATOM     22  HG21ILE A   2      17.230  46.291  14.308  1.00 11.43           H
 ATOM     23  HG22ILE A   2      17.979  44.661  14.216  1.00 11.43           H
 </pre>
 
+<br>
+<br>
 
-
-
-<a id="fasta_splitter.py"></a>
 ### `fasta_splitter.py`
+[[back to top](#table-of-contents)]
 
 The FASTA file splitter reads in a FASTA file that consists of  
  multiple protein sequences and splits it into individual FASTA files,  
