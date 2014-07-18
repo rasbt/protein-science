@@ -54,7 +54,7 @@ output:
 
 	[-8.125, 20.461, -10.438]
 
-![](./images/protein_com.png)
+![](./images/protein.png)
 
 **Tip:**
 
