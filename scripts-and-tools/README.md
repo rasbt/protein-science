@@ -1,15 +1,18 @@
 
+
+
 Useful scripts for working with protein files in FASTA, PDB, and MOL2 formats
 
 ###Table of Contents
+
 - [Analysis](#analysis)
-    - [`openeye_rmsd_align.py`](#openeye_rmsd_align-py)
+    - [`openeye_rmsd_align.py`](#openeye_rmsd_alignpy)
 - [File Conversion](#file-conversion)
-    - [`pymol_mol2_to_pdb.py`](#pymol_mol2_to_pdb-py)
-    - [`pdb_to_fasta.py`](#pdb_to_fasta-py)
+    - [`pymol_mol2_to_pdb.py`](#pymol_mol2_to_pdbpy)
+    - [`pdb_to_fasta.py`](#pdb_to_fastapy)
 - [File Processing](#file-processing)
-    - [`fix_atomname_col.py`](#fix_atomname_col-py)
-    - [`fasta_splitter.py`](#fasta_splitter-py)
+    - [`fix_atomname_col.py`](#fix_atomname_colpy)
+    - [`fasta_splitter.py`](#fasta_splitterpy)
 
 
 
@@ -148,4 +151,5 @@ The FASTA file splitter reads in a FASTA file that consists of
  multiple protein sequences and splits it into individual FASTA files,  
  which can be accepted as input by other software. For more information  
  about the usage, please visit: http://sebastianraschka.com/Software/fasta_file_splitter.html
+
 
