@@ -3,7 +3,8 @@
 
 A collection of useful scripts for working with protein files in FASTA, PDB, and MOL2 formats
 
-- [center_of_mass.py](#center_of_masspy) 
+- [center_of_mass.py](#center_of_masspy)
+- [grab_atom_radius.py](#grab_atom_radiuspy)
 - [pdb_to_fasta.py](#pdb_to_fastapy)
 - [rmsd.py](#rmsdpy)
 
