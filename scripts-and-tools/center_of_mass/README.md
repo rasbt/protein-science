@@ -6,6 +6,15 @@
 <br>
 <br>
 
+<hr>
+I would be happy to hear your comments and suggestions. 
+Please feel free to drop me a note via
+[twitter](https://twitter.com/rasbt), [email](mailto:bluewoodtree@gmail.com), or [google+](https://plus.google.com/+SebastianRaschka).
+<hr>
+
+<br>
+<br>
+
 
 The `center_of_mass.py` script calculates the weighted center of mass for PDB and PDBQT files.
 

@@ -6,6 +6,15 @@
 <br>
 <br>
 
+<hr>
+I would be happy to hear your comments and suggestions. 
+Please feel free to drop me a note via
+[twitter](https://twitter.com/rasbt), [email](mailto:bluewoodtree@gmail.com), or [google+](https://plus.google.com/+SebastianRaschka).
+<hr>
+
+<br>
+<br>
+
 
 The `rmsd.py` script calculates the root mean square deviation (RSMD) in Angstrom between two structures in PDB format.  
 **Note that both PDB files have to contain the same number of atoms for the script to work.**

@@ -6,6 +6,15 @@
 <br>
 <br>
 
+<hr>
+I would be happy to hear your comments and suggestions. 
+Please feel free to drop me a note via
+[twitter](https://twitter.com/rasbt), [email](mailto:bluewoodtree@gmail.com), or [google+](https://plus.google.com/+SebastianRaschka).
+<hr>
+
+<br>
+<br>
+
 
 A script that converts amino acid residues from PDB files into a FASTA string
 
