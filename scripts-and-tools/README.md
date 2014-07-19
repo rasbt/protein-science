@@ -27,7 +27,15 @@ Please feel free to drop me a note via
 
 ![](./center_of_mass/images/ligand_1_2.png)
 
+<br>
+<br>
 
+## grab_atom_radius.py
+[[back to top](#protein-science---scripts-and-tools)]
+
+[Go to `grab_atom_radius.py`](./grab_atom_radius)
+
+![](./grab_atom_radius/images/extract7.png)
 
 <br>
 <br>
