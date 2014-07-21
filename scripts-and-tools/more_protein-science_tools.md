@@ -61,7 +61,7 @@ Website: [http://vina.scripps.edu](http://vina.scripps.edu)
 
 **Usage for re-scoring:**
 
-	vina --config config.txt
+	vina --config config.txt --score_only
 	
 Where a config.txt file has to be prepared for every protein-ligand complex, e.g.,
 
