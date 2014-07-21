@@ -163,6 +163,8 @@ Requires installation of the IMP toolkit
 	
 Where `protein_ligand_pose_score.lib` is used for scoring different ligand poses (PoseScore) for the same protein-ligand complex, and `protein_ligand_rank_score.lib` (RankScore) is used to score different ligands for a given binding interface.
 
+(On a Mac, the library files are typically located at: `/usr/local/share/IMP/atom/protein_ligand_pose_score.lib` and `/usr/local/share/IMP/atom/protein_ligand_rank_score.lib`) 
+
 "Two different scoring files are provided:
     - protein_ligand_pose_score.lib for use when one wants to find the
     most near-native poses of a ligand from many geometry decoys of the
@@ -170,7 +172,13 @@ Where `protein_ligand_pose_score.lib` is used for scoring different ligand poses
     - protein_ligand_rank_score.lib for use when screening a compound database
     against a single protein to choose putative binders"
     
-Source: [http://svn.salilab.org/imp/trunk/applications/ligand_score/README.md](README.md)
+Source: [http://svn.salilab.org/imp/trunk/applications/ligand_score/README.md](README.md)    
+    
+(On a Mac, the library files are typically located at: `/usr/local/share/IMP/atom/protein_ligand_pose_score.lib` and `/usr/local/share/IMP/atom/protein_ligand_rank_score.lib`)    
+
+**Example:**
+
+	ligand_score my.mol2 my.pdb /usr/local/share/IMP/atom/protein_ligand_pose_score.lib
 
 **Version:**
 
