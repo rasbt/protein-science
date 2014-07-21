@@ -71,16 +71,20 @@ Tutorial and script to generate low-energy conformers of query and target molecu
 [[back to top](#about-this-repository)]
 
 
-Useful scripts for working with protein files in FASTA, PDB, and MOL2 formats
+
+- the **[`scripts-and-tools`](./scripts-and-tools)** subdirectory with tools for, e.g., 
+	- calculating the center of mass of protein and ligands
+	- converting PDB files into FASTA strings
+	- calculating the RMSD between two molecules
+	- extracting coordinates from PDB files 
 
 
-Please visit [`scripts-and-tools`](./scripts-and-tools) subdirectory for documentation and examples.
 
-#### Other tools
-[[back to top](#about-this-repository)]
 - **[smilite](https://github.com/rasbt/smilite)** - a Python module to download and analyze SMILE strings (Simplified Molecular-Input Line-entry System) of chemical compounds from ZINC
 
 - **[pyprot](https://github.com/rasbt/pyprot)** - a Python package for working with protein structure files formats. It comes with a collection of ready-to-use scripts for the most common file operations and protein analyses.
+
+- a **[list of more useful tools](./scripts-and-tools/more_protein-science_tools.md)**, such as tools for adding hydrogen atoms to molecules, scoring of protein-ligand binding interfaces, file conversion ...
 
 <br>
 <br>
