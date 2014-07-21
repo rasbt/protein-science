@@ -18,9 +18,10 @@ Sebastian Raschka, last updated: 21/07/2014
 - [Protein file and structure processing](#protein-file-and-structure-processing)
     - [OpenBabel](#openbabel)
     - [Reduce](#reduce)
-- [Multi-purpose](#multi-purpose)
+- [Multi-purpose tools and libraries](#multi-purpose-tools-and-libraries)
     - [Biopython](#biopython)
     - [scikit-bio](#scikit-bio)
+    - [ProteoWizard](#proteowizard)
 
 
 
@@ -268,7 +269,7 @@ Usage:
 <br>	
 	
 <a class="mk-toclify" id="multi-purpose"></a>
-## Multi-purpose
+## Multi-purpose tools and libraries
 [[back to top](#table-of-contents)]
 
 <br>
@@ -293,3 +294,15 @@ Website: [http://biopython.org/wiki/Main_Page](http://biopython.org/wiki/Main_Pa
 A Python package with various functions, data structures, and algorithms for biosciences written in Python.
 
 Website: [http://scikit-bio.org](http://scikit-bio.org)
+
+
+<br>
+<br>
+
+<a class="mk-toclify" id="proteowizard"></a>
+### ProteoWizard
+[[back to top](#table-of-contents)]
+
+A library of GUI and command line tools for proteomics analyses
+
+Website: [http://proteowizard.sourceforge.net/index.shtml](http://proteowizard.sourceforge.net/index.shtml)
