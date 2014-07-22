@@ -15,14 +15,23 @@ Sebastian Raschka, last updated: 21/07/2014
     - [AutoDock Vina](#autodock-vina)
     - [DrugScoreX](#drugscorex)
     - [LigScore](#ligscore)
+    
 - [Protein file and structure processing](#protein-file-and-structure-processing)
     - [OpenBabel](#openbabel)
     - [Reduce](#reduce)
+    
+- [Mass Spectrometry](#mass-spectrometry)
+    - [ProteoWizard](#proteowizard)
+    - [OpenMS](#openms)
+
 - [Libraries](#libraries)
     - [Biopython](#biopython)
     - [scikit-bio](#scikit-bio)
-    - [ProteoWizard](#proteowizard)
-    - [OpenMS](#openms)
+
+- [Genomics](#genomics)
+	- [Prodigal](#prodigal)
+	- [khmer](#khmer)
+
 
 
 
@@ -274,7 +283,38 @@ Usage:
 	
 	
 <br>
-<br>	
+<br>
+
+<a class="mk-toclify" id="mass-spectrometry"></a>
+## Mass Spectrometry
+[[back to top](#table-of-contents)]
+
+<br>
+<br>
+
+<a class="mk-toclify" id="proteowizard"></a>
+### ProteoWizard
+[[back to top](#table-of-contents)]
+
+A library of GUI and command line tools for proteomics analyses
+
+Website: [http://proteowizard.sourceforge.net/index.shtml](http://proteowizard.sourceforge.net/index.shtml)
+
+<br>
+<br>
+
+<a class="mk-toclify" id="openms"></a>
+### OpenMS
+[[back to top](#table-of-contents)]
+
+A C++ library for LC/MS data management and analyses
+
+Website: [http://open-ms.sourceforge.net](http://open-ms.sourceforge.net)
+
+*Marc Sturm, Andreas Bertsch, Clemens Gröpl, Andreas Hildebrandt, Rene Hussong, Eva Lange, Nico Pfeifer, Ole Schulz-Trieglaff, Alexandra Zerck, Knut Reinert, and Oliver Kohlbacher, 2008.
+“OpenMS – an Open-Source Software Framework for Mass Spectrometry”
+BMC Bioinformatics 9: 163. doi:10.1186/1471-2105-9-163.*
+	
 	
 <a class="mk-toclify" id="libraries"></a>
 ## Libraries
@@ -304,28 +344,41 @@ A Python package with various functions, data structures, and algorithms for bio
 Website: [http://scikit-bio.org](http://scikit-bio.org)
 
 
+
+
 <br>
 <br>
 
-<a class="mk-toclify" id="proteowizard"></a>
-### ProteoWizard
+<a class="mk-toclify" id="genomics"></a>
+## Genomics
 [[back to top](#table-of-contents)]
 
-A library of GUI and command line tools for proteomics analyses
-
-Website: [http://proteowizard.sourceforge.net/index.shtml](http://proteowizard.sourceforge.net/index.shtml)
-
 <br>
 <br>
 
-<a class="mk-toclify" id="openms"></a>
-### OpenMS
+
+<a class="mk-toclify" id="prodigal"></a>
+### Prodigal
 [[back to top](#table-of-contents)]
 
-A C++ library for LC/MS data management and analyses
+A fast Prokaryotic Dynamic Programming Genefinding Algorithm for identifying genes in a microbial genome.
 
-Website: [http://open-ms.sourceforge.net](http://open-ms.sourceforge.net)
+Website: [http://prodigal.ornl.gov](http://prodigal.ornl.gov)
 
-*Marc Sturm, Andreas Bertsch, Clemens Gröpl, Andreas Hildebrandt, Rene Hussong, Eva Lange, Nico Pfeifer, Ole Schulz-Trieglaff, Alexandra Zerck, Knut Reinert, and Oliver Kohlbacher, 2008.
-“OpenMS – an Open-Source Software Framework for Mass Spectrometry”
-BMC Bioinformatics 9: 163. doi:10.1186/1471-2105-9-163.*
+Webserver: [http://prodigal.ornl.gov/server.html](http://prodigal.ornl.gov/server.html)
+
+*Hyatt D, Chen GL, Locascio PF, Land ML, Larimer FW, Hauser LJ. Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC Bioinformatics. 2010 Mar 8;11(1):119.*
+
+<br>
+<br>
+
+<a class="mk-toclify" id="khmer"></a>
+### khmer
+
+[[back to top](#table-of-contents)]
+
+A library for assembling short-read DNA sequences via  k-mer counting, filtering and graph traversal FTW.
+
+Website: [http://khmer.readthedocs.org](http://khmer.readthedocs.org)
+
+*Crusoe et al., The khmer software package: enabling efficient sequence analysis. 2014.*
