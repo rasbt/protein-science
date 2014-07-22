@@ -18,11 +18,11 @@ Sebastian Raschka, last updated: 21/07/2014
 - [Protein file and structure processing](#protein-file-and-structure-processing)
     - [OpenBabel](#openbabel)
     - [Reduce](#reduce)
-- [Multi-purpose tools and libraries](#multi-purpose-tools-and-libraries)
+- [Libraries](#libraries)
     - [Biopython](#biopython)
     - [scikit-bio](#scikit-bio)
     - [ProteoWizard](#proteowizard)
-
+    - [OpenMS](#openms)
 
 
 
@@ -276,8 +276,8 @@ Usage:
 <br>
 <br>	
 	
-<a class="mk-toclify" id="multi-purpose"></a>
-## Multi-purpose tools and libraries
+<a class="mk-toclify" id="libraries"></a>
+## Libraries
 [[back to top](#table-of-contents)]
 
 <br>
@@ -314,3 +314,18 @@ Website: [http://scikit-bio.org](http://scikit-bio.org)
 A library of GUI and command line tools for proteomics analyses
 
 Website: [http://proteowizard.sourceforge.net/index.shtml](http://proteowizard.sourceforge.net/index.shtml)
+
+<br>
+<br>
+
+<a class="mk-toclify" id="openms"></a>
+### OpenMS
+[[back to top](#table-of-contents)]
+
+A C++ library for LC/MS data management and analyses
+
+Website: [http://open-ms.sourceforge.net](http://open-ms.sourceforge.net)
+
+*Marc Sturm, Andreas Bertsch, Clemens Gröpl, Andreas Hildebrandt, Rene Hussong, Eva Lange, Nico Pfeifer, Ole Schulz-Trieglaff, Alexandra Zerck, Knut Reinert, and Oliver Kohlbacher, 2008.
+“OpenMS – an Open-Source Software Framework for Mass Spectrometry”
+BMC Bioinformatics 9: 163. doi:10.1186/1471-2105-9-163.*
