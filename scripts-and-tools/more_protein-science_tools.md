@@ -146,6 +146,18 @@ Journal of Chemical Information and Modeling 2011 51 (10), 2731-2745*
  	|  version    :   0.88   (26.04.2011)                     ((_( o ((\( o     |
  	+---------------------------------------------------------------------------+
 
+**Example:**
+
+	dsx_mac_64.mac -P protein.pdb -L ligand.mol2 -D pdb_pot_0511
+	
+The directory with the PDB potentials is typically located in the main directory after downloading DrugScoreX
+
+	dsx/
+		ACC_DON_AnD_HYD_ARO_map.def	
+		mac64/ 			  # directory that contains the binaries
+		README.txt			
+		pdb_pot_0511/     # potentials
+
 <br>
 <br>
 
