@@ -7,7 +7,7 @@ My summarized thoughts for a quick overview about various articles related to pr
 # Categories
 
 - [Protein-ligand docking and virtual screening](protein-ligand-docking-and-virtual-screening)
-- [Protein crystallography](#protein-crystallography)
+
 
 <br>
 <br>
@@ -18,6 +18,8 @@ My summarized thoughts for a quick overview about various articles related to pr
 
 [[back to top](#categories)]
 
+<br>
+<br>
 
 ### Virtual Ligand Screening: Strategies, Perspectives and Limitations
 
@@ -30,15 +32,10 @@ It is a nice review paper written in a rather general and introductory tone, whi
 
 
 
-
 <br>
 <br>
 
-## Protein crystallography
-[[back to top](#categories)]
-
-
-### Essential considerations for using protein–ligand structures in drug discover
+### Essential considerations for using protein–ligand structures in drug discovery
 
 
 
@@ -47,3 +44,11 @@ A discussion of the assessment of x-ray crystallographic protein structures and 
 - Warren, G.L., Do, T.D., Kelley, B.P., Nicholls, A. and Warren, S.D. (2012), “Essential considerations for using protein–ligand structures in drug discovery”, Drug Discovery Today, Vol. 17 No. 23-24, pp. 1270–1281.
 
 - [Link to article](http://www.sciencedirect.com/science/article/pii/S1359644612002048)
+
+
+<br>
+<br>
+
+
+
+
