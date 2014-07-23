@@ -106,9 +106,11 @@ Tutorial and script to generate low-energy conformers of query and target molecu
 
 # Literature
 
+[[back to top](#about-this-repository)]
+
 - [Literature notes](./literature_notes)
 
-[[back to top](#about-this-repository)]
+
 
 <br>
 <br>

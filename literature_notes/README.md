@@ -31,4 +31,4 @@ It is a nice review paper written in a rather general and introductory tone, whi
 - [Link to the original article](http://www.sciencedirect.com/science/article/pii/S1359644606001784)
 
 
-- [Link to my notes](http://www.sciencedirect.com/science/article/pii/S1359644606001784)
+- [Link to my notes](./docking_and_screening/klebe_2006_1.md)
