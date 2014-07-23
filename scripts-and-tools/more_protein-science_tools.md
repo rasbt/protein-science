@@ -20,6 +20,10 @@ Sebastian Raschka, last updated: 21/07/2014
     - [OpenBabel](#openbabel)
     - [Reduce](#reduce)
     
+- [Crystal structure analysis](#crystal-structure-analysis)
+	
+	- [PyWater](#pywater) 
+    
 - [Mass Spectrometry](#mass-spectrometry)
     - [ProteoWizard](#proteowizard)
     - [OpenMS](#openms)
@@ -292,6 +296,27 @@ Usage:
 
 	reduce -v
 	reduce.3.23.130521
+	
+	
+<br>
+<br>
+
+<a class="mk-toclify" id="crystal-structure-analysis"></a>
+## Crystal structure analysis
+[[back to top](#table-of-contents)]
+
+<br>
+<br>
+
+
+
+<a class="mk-toclify" id="pywater"></a>
+### PyWater
+[[back to top](#table-of-contents)]
+
+A PyMOL plugin with a GUI and command line interface that finds conserved water molecules in a protein X-ray crystal structure.
+	
+Documentation and code: [https://github.com/hiteshpatel379/PyWATER](https://github.com/hiteshpatel379/PyWATER)	
 	
 	
 <br>
