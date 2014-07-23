@@ -14,7 +14,7 @@ During my work and hobbies, I started accumulating useful material about differe
     - [Low-Energy Conformer Generation and Overlay](#low-energy-conformer-generation-and-overlay)
 - [Scripts and Tools](#scripts-and-tools)
 - [Info Sheets](#info-sheets)
-- [Recommended Literature](#recommended-literature)
+- [Literature](#literature)
 - [Protein Science Glossary](#protein-science-glossary)
 - [Useful Links](#useful-links)
 
@@ -104,7 +104,10 @@ Tutorial and script to generate low-energy conformers of query and target molecu
 <hr>
 
 
-# [Recommended Literature](./literature/README.md)
+# [Literature]
+
+- [Literature notes](./literature_notes)
+
 [[back to top](#about-this-repository)]
 
 <br>
