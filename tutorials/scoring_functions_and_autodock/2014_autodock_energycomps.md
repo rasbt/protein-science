@@ -71,7 +71,7 @@ In order to accomplish this task, molecular docking tools will generate a set of
 
 In contrast to "conformation", the bond angles are the same between two/multiple ligands (as well as the chemical composition), but the orientation in space (transition, global rotation) is differs between two/multiple orientations.
 
-![ligand orientation](./images/ligand_orientation.png)
+![ligand orientation](./Images/ligand_orientation.png)
 
 <br>
 
