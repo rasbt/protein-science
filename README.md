@@ -51,6 +51,8 @@ Or even better: It would be great if you would simply fork this project and send
 A how-to for extracting a substructure from a molecule and use it as query for an alignment to target molecules.  
 [Link to tutorial](./tutorials/substructure_alignment/README.md)
 
+<br>
+
 ### Low-Energy Conformer Generation and Overlay
 [[back to top](#about-this-repository)]
 
@@ -58,6 +60,16 @@ A how-to for extracting a substructure from a molecule and use it as query for a
 
 Tutorial and script to generate low-energy conformers of query and target molecules and overlay them to choose the highest-scoring hit using OpenEye software.  
 [Link to tutorial](./tutorials/low_energy_conformer_overlay/README.md)
+
+<br>
+
+### Molecular docking, estimating free energies of binding, and AutoDock's semi-empirical force field
+
+[[back to top](#about-this-repository)]
+
+![](./tutorials/scoring_functions_and_autodock/Images/prot_lig_complexes.png)
+
+Discussions and questions about methods, approaches, and tools for estimating (relative) free binding energies of protein-ligand complexes are quite popular, and even the simplest tools can be quite tricky to use. Here, I want to briefly summarize the idea of molecular docking, and give a short overview about how we can use AutoDock 4.2's hybrid approach for evaluating binding affinities.  
 
 <br>
 <br>

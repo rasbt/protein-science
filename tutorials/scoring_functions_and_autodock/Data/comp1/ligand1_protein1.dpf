@@ -1,0 +1,15 @@
+autodock_parameter_version 4.2       # used by autodock to validate parameter set
+outlev 1                             # diagnostic output level
+intelec                              # calculate internal electrostatics
+ligand_types C H HD N OA             # atoms types in ligand
+fld protein1.maps.fld                # grid_data_file
+map protein1.C.map                   # atom-specific affinity map
+map protein1.H.map                   # atom-specific affinity map
+map protein1.HD.map                  # atom-specific affinity map
+map protein1.N.map                   # atom-specific affinity map
+map protein1.OA.map                  # atom-specific affinity map
+elecmap protein1.e.map               # electrostatics map
+desolvmap protein1.d.map             # desolvation map
+move ligand1.pdbqt                   # small molecule
+about 33.0624 14.8265 52.5129        # small molecule center
+epdb

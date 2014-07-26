@@ -1,0 +1,15 @@
+autodock_parameter_version 4.2       # used by autodock to validate parameter set
+outlev 1                             # diagnostic output level
+seed pid time                        # seeds for random generator
+ligand_types C H HD N OA             # atoms types in ligand
+fld protein3.maps.fld                # grid_data_file
+map protein3.C.map                   # atom-specific affinity map
+map protein3.H.map                   # atom-specific affinity map
+map protein3.HD.map                  # atom-specific affinity map
+map protein3.N.map                   # atom-specific affinity map
+map protein3.OA.map                  # atom-specific affinity map
+elecmap protein3.e.map               # electrostatics map
+desolvmap protein3.d.map             # desolvation map
+move ligand3.pdbqt                   # small molecule
+about 34.1268 13.7314 51.8984        # small molecule center
+epdb
