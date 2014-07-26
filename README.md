@@ -72,6 +72,8 @@ Tutorial and script to generate low-energy conformers of query and target molecu
 
 Discussions and questions about methods, approaches, and tools for estimating (relative) free binding energies of protein-ligand complexes are quite popular, and even the simplest tools can be quite tricky to use. Here, I want to briefly summarize the idea of molecular docking, and give a short overview about how we can use AutoDock 4.2's hybrid approach for evaluating binding affinities.  
 
+[Link to tutorial](./tutorials/scoring_functions_and_autodock/2014_autodock_energycomps.md)
+
 <br>
 <br>
 <br>
