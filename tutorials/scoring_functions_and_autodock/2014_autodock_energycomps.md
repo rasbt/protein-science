@@ -1,5 +1,5 @@
 Sebastian Raschka  
-Last updated: 07/24/2014
+Last updated: 07/26/2014
 
 # Molecular docking, estimating free energies of binding, and AutoDock's semi-empirical force field
 
@@ -11,7 +11,7 @@ Last updated: 07/24/2014
 - [Introduction](#introduction)
     - [Molecular Docking](#molecular-docking)
 	- [About AutoDock](#about-autodock)
-- [Steps for estimating binding energies via AutoDock 4.2](#steps-for-obtaining-binding-energies-via-autodock-42)
+- [Steps for estimating binding energies via AutoDock 4.2](##steps-for-estimating-binding-energies-via-autodock-42)
     - [Setup](#setup)
     - [1) Preparing a protein](#1-preparing-a-protein)
     - [2) Preparing a ligand](#2-preparing-a-ligand)
@@ -145,7 +145,7 @@ Typically, if a ligand binds to a protein, the enthalpic term decreases due to f
 ## About AutoDock
 [[back to top](#table-of-contents)]
 
-AutoDock uses a computationally (relatively) inexpensive "hybrid" force field that contains terms based on molecular mechanics as well as empirical terms. The prediction of absolute binding energies may be less accurate compared to more computationally expensive, purely force field-based methods, but this semi-emprical approach is considered as well-suited for the relative rankings.
+AutoDock uses a computationally (relatively) inexpensive "hybrid" force field that contains terms based on molecular mechanics as well as empirical terms. The prediction of absolute binding energies may be less accurate compared to more computationally expensive, purely force field-based methods, but this semi-empirical approach is considered as well-suited for the relative rankings.
 
 
 
@@ -168,7 +168,7 @@ Where *P* refers to the protein, *L* refers to the ligand, *V* are the pair-wise
 <br>
 <br>
 
-<a class="mk-toclify" id="steps-for-obtaining-binding-energies-via-autodock-42"></a>
+<a class="mk-toclify" id="#steps-for-estimating-binding-energies-via-autodock-42"></a>
 # Steps for estimating binding energies via AutoDock 4.2
 [[back to top](#table-of-contents)]
 

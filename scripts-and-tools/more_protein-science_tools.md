@@ -59,6 +59,48 @@ Please feel free to drop me a note via
 ## Protein-ligand docking and scoring
 [[back to top](#table-of-contents)]
 
+
+<br>
+<br>
+
+<a class="mk-toclify" id="autodock-42"></a>
+### AutoDock 4.2
+[[back to top](#table-of-contents)]
+
+A molecular docking and scoring tool that uses a computationally (relatively) inexpensive "hybrid" force field that contains terms based on molecular mechanics as well as empirical terms. The prediction of absolute binding energies may be less accurate compared to more computationally expensive, purely force field-based methods, but this semi-empirical approach is considered as well-suited for the relative rankings.
+
+It was succeeded by AutoDock Vina, which replaced the semi-empirical force field by an entirely  knowledge-based, statistical scoring function. The authors highlight the improved speed and accuracy of AutoDock Vina, however, AutoDock 4.2 provides a more detailed output that might be useful for certain applications.
+
+Website: [http://autodock.scripps.edu/downloads/autodock-registration/autodock-4-2-download-page/](http://autodock.scripps.edu/downloads/autodock-registration/autodock-4-2-download-page/)
+
+*Huey, Ruth, Garrett M. Morris, Arthur J. Olson, and David S. Goodsell. 2007. “A Semiempirical Free Energy Force Field with Charge-Based Desolvation.” Journal of Computational Chemistry 28 (6): 1145–52. doi:10.1002/jcc.20634.*
+
+**Usage for re-scoring:**  
+
+Since the procedure involves several steps, please an usage example in [this separate document](https://github.com/rasbt/protein-science/blob/master/tutorials/scoring_functions_and_autodock/2014_autodock_energycomps.md#steps-for-estimating-binding-energies-via-autodock-42).
+
+**Example output:**
+
+	Total Intermolecular Interaction Energy          =  -3.1862 kcal/mol
+	Total Intermolecular vdW + Hbond + desolv Energy =  -0.2499 kcal/mol
+	Total Intermolecular Electrostatic Energy        =  -2.9362 kcal/mol
+	Total Intermolecular + Intramolecular Energy     =  -5.6314 kcal/mol
+
+
+	epdb: USER    Estimated Free Energy of Binding    =   -1.40 kcal/mol  [=(1)+(2)+(3)-(4)]
+	epdb: USER    Estimated Inhibition Constant, Ki   =   94.72 mM (millimolar)  [Temperature = 298.15 K]
+	epdb: USER    
+	epdb: USER    (1) Final Intermolecular Energy     =   -3.19 kcal/mol
+	epdb: USER        vdW + Hbond + desolv Energy     =   -0.25 kcal/mol
+	epdb: USER        Electrostatic Energy            =   -2.94 kcal/mol
+	epdb: USER    (2) Final Total Internal Energy     =   -2.45 kcal/mol
+	epdb: USER    (3) Torsional Free Energy           =   +1.79 kcal/mol
+	epdb: USER    (4) Unbound System's Energy  [=(2)] =   -2.45 kcal/mol
+
+**Version:**
+
+	AutoDock 4.2 Release 4.2.5.1 
+	
 <br>
 <br>
 
