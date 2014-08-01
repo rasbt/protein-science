@@ -24,19 +24,19 @@ def split_multimol2(multimol2):
 
         while not mol2file.tell() == os.fstat(mol2file.fileno()).st_size:
             if line.startswith("@<TRIPOS>MOLECULE"):
-                mol2cont = ""
-                mol2cont += line
+                mol2cont = []
+                mol2cont.append(line)
                 line = mol2file.readline()
                 molecule_id = line.strip()
 
                 while not line.startswith("@<TRIPOS>MOLECULE"):
-                    mol2cont += line
+                    mol2cont.append(line)
                     line = mol2file.readline()
                     if mol2file.tell() == os.fstat(mol2file.fileno()).st_size:
-                        mol2cont += line
+                        mol2cont.append(line)
                         break
-
-                yield [molecule_id, mol2cont]
+                mol2cont[-1] = mol2cont[-1].rstrip() # removes blank line at file end
+                yield [molecule_id, "".join(mol2cont)]
 
 
 if __name__ == '__main__':
