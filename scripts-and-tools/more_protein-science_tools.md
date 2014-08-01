@@ -1,7 +1,7 @@
 Sebastian Raschka, last updated: 21/07/2014
 
 
-# Free and useful protein-science tools
+# Useful programs and tools for protein science
 
 
 <br>
@@ -67,6 +67,8 @@ Please feel free to drop me a note via
 ### AutoDock 4.2
 [[back to top](#table-of-contents)]
 
+**License**: free, open-source (GNU GPL)
+
 A molecular docking and scoring tool that uses a computationally (relatively) inexpensive "hybrid" force field that contains terms based on molecular mechanics as well as empirical terms. The prediction of absolute binding energies may be less accurate compared to more computationally expensive, purely force field-based methods, but this semi-empirical approach is considered as well-suited for the relative rankings.
 
 It was succeeded by AutoDock Vina, which replaced the semi-empirical force field by an entirely  knowledge-based, statistical scoring function. The authors highlight the improved speed and accuracy of AutoDock Vina, however, AutoDock 4.2 provides a more detailed output that might be useful for certain applications.
@@ -107,6 +109,8 @@ Since the procedure involves several steps, please an usage example in [this sep
 <a class="mk-toclify" id="autodock-vina"></a>
 ### AutoDock Vina
 [[back to top](#table-of-contents)]
+
+**License**: free, open-source (Apache license)
 
 The successor of AutoDock4.2 for docking and re-scoring protein-ligand complexes with a scoring function that estimates the binding affinities, as well as individual terms, such as hydrophobic contribution and hydrogen bonding.
 
@@ -149,6 +153,8 @@ For more details, please see the documentation for
 <a class="mk-toclify" id="drugscorex"></a>
 ### DrugScoreX
 [[back to top](#table-of-contents)]
+
+**License**: free without any limitations (redistribution requires permission)
 
 DrugScoreX is a new, independent DrugScore implementation with higher accuracy for scoring protein-ligand complexes. It's scoring function is based on statistical potentials.
 
@@ -211,6 +217,8 @@ The directory with the PDB potentials is typically located in the main directory
 ### LigScore
 [[back to top](#table-of-contents)]
 
+**License**: free, open-source (GNU GPL)
+
 Like DrugScore, a scoring function for protein-ligand complexes based on statistical potentials. It is available as standalone (IMP toolkit) and as webserver.  
 
 The two flavors are RankScore, which is recommended for scoring different ligands in a protein-binding interface (e.g., for virtual screening), and PoseScore, for finding the optimal binding pose of a set of ligand decoys (i.e., the same ligand in different orientations/conformations).
@@ -267,6 +275,8 @@ Not individually available for `ligand_score`, see IMP version (IMP 2.2.0).
 ### OpenBabel
 [[back to top](#table-of-contents)]
 
+**License**: free, open-source (GNU GPL)
+
 A conversion tool for different file formats. Comes with standalone binaries and APIs for various programming languages.
 
 Website: [http://openbabel.org](http://openbabel.org)
@@ -299,6 +309,8 @@ Website: [http://openbabel.org](http://openbabel.org)
 <a class="mk-toclify" id="reduce"></a>
 ### Reduce
 [[back to top](#table-of-contents)]
+
+**License**: free, but no particular license provided
 
 A command-line tool that adds/removes hydrogen-atoms to/from proteins and ligands in PDB format.
 
@@ -356,6 +368,8 @@ Usage:
 ### PyWater
 [[back to top](#table-of-contents)]
 
+**License**: free, open-source (MIT license)
+
 A PyMOL plugin with a GUI and command line interface that finds conserved water molecules in a protein X-ray crystal structure.
 	
 Documentation and code: [https://github.com/hiteshpatel379/PyWATER](https://github.com/hiteshpatel379/PyWATER)	
@@ -375,6 +389,8 @@ Documentation and code: [https://github.com/hiteshpatel379/PyWATER](https://gith
 ### ProteoWizard
 [[back to top](#table-of-contents)]
 
+**License**: free, open-source (no particular license mentioned)
+
 A library of GUI and command line tools for proteomics analyses
 
 Website: [http://proteowizard.sourceforge.net/index.shtml](http://proteowizard.sourceforge.net/index.shtml)
@@ -386,7 +402,9 @@ Website: [http://proteowizard.sourceforge.net/index.shtml](http://proteowizard.s
 ### OpenMS
 [[back to top](#table-of-contents)]
 
-A C++ library for LC/MS data management and analyses
+**License**: free, open-source (BSD)
+
+A C++ library for LC/MS data management and analysis.
 
 Website: [http://open-ms.sourceforge.net](http://open-ms.sourceforge.net)
 
@@ -407,6 +425,8 @@ BMC Bioinformatics 9: 163. doi:10.1186/1471-2105-9-163.*
 ### Biopython
 [[back to top](#table-of-contents)]
 
+**License**: free, open-source (very permissive custom license)
+
 A collection of different tools written in Python
 
 Website: [http://biopython.org/wiki/Main_Page](http://biopython.org/wiki/Main_Page)
@@ -417,6 +437,8 @@ Website: [http://biopython.org/wiki/Main_Page](http://biopython.org/wiki/Main_Pa
 <a class="mk-toclify" id="scikit-bio"></a>
 ### scikit-bio
 [[back to top](#table-of-contents)]
+
+**License**: free, open-source (BSD)
 
 A Python package with various functions, data structures, and algorithms for biosciences written in Python.
 
@@ -440,6 +462,8 @@ Website: [http://scikit-bio.org](http://scikit-bio.org)
 ### Prodigal
 [[back to top](#table-of-contents)]
 
+**License**: free, open-source (GPL)
+
 A fast Prokaryotic Dynamic Programming Genefinding Algorithm for identifying genes in a microbial genome.
 
 Website: [http://prodigal.ornl.gov](http://prodigal.ornl.gov)
@@ -453,6 +477,8 @@ Webserver: [http://prodigal.ornl.gov/server.html](http://prodigal.ornl.gov/serve
 
 <a class="mk-toclify" id="khmer"></a>
 ### khmer
+
+**License**: free, open-source (BSD)
 
 [[back to top](#table-of-contents)]
 
