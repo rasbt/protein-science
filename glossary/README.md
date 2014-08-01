@@ -1,6 +1,6 @@
 Sebastian Raschka
 
-Last updated: 07/22/2014
+Last updated: 09/01/2014
 
 <a class="mk-toclify" id="table-of-contents"></a>
 
@@ -11,6 +11,7 @@ Last updated: 07/22/2014
 - [Holo structure](#holo-structure)
 - [Orientation](#orientation)
 - [Pose](#pose)
+- [R-factor](#r-factor)
 - [Root-mean-square deviation (RMSD)](#root-mean-square-deviation-rmsd)
 - [Virtual screening](#virtual-screening)
 
@@ -30,6 +31,8 @@ Last updated: 07/22/2014
 
 The observed structure of a protein if its ligand is not bound. In contrast to [holo structure](#holo-structure)
 
+<br>
+<br>
 
 <a class="mk-toclify" id="conformation"></a>
 #### Conformation   
@@ -39,6 +42,8 @@ The observed structure of a protein if its ligand is not bound. In contrast to [
 
 ![ligand conformation](./images/ligand_conformation.png)
 
+<br>
+<br>
 
 <a class="mk-toclify" id="high-throughput-screening"></a>
 #### High-throughput screening   
@@ -47,7 +52,8 @@ The observed structure of a protein if its ligand is not bound. In contrast to [
 
 High-throughput screening (HTS) is an experimental (in contrast to virtual screening) approach for drug discovery that were especially popular in the 1980's and 1990's. HTS uses automated mechanical devices, such as roboters, in order to test up to millions of chemical compounds for activity.
 
-
+<br>
+<br>
 
 <a class="mk-toclify" id="holo-structure"></a>
 #### Holo structure    
@@ -56,7 +62,8 @@ High-throughput screening (HTS) is an experimental (in contrast to virtual scree
 
 The observed structure of a protein in its ligand bound state. In contrast to [apo structure](#apo-structure).
 
-
+<br>
+<br>
 
 <a class="mk-toclify" id="orientation"></a>
 #### Orientation
@@ -67,7 +74,8 @@ The observed structure of a protein in its ligand bound state. In contrast to [a
 
 ![ligand orientation](./images/ligand_orientation.png)
 
-
+<br>
+<br>
 
 <a class="mk-toclify" id="pose"></a>
 #### Pose  
@@ -76,6 +84,29 @@ The observed structure of a protein in its ligand bound state. In contrast to [a
 
 A ligand pose describes the binding-mode of a ligand in a protein binding site. Typically, this is considered to be a combination of [orientation](#orientation) & [conformation](#conformation)
 
+<br>
+<br>
+
+<a class="mk-toclify" id="r-factor"></a>
+#### R-factor
+
+[[back to top](#table-of-contents)]
+
+The R-factor is one of several measures to assess the quality of a protein crystal structure. After building and refining an atomistic model of the crystal structure, the R-factor measures how well this model can describe the experimental diffraction patterns via the equation:
+
+![](./images/r_factor.gif)
+
+[R = \frac{\sum ||F_{obs}| - |F_{calc}||}{\sum|F_{obs}|}]
+
+Where *F* is the so-called static structure factor which measures the amount of electron scatter.
+Thus, a perfect R-factor value would be 0; the RCSB ([http://www.rcsb.org](http://www.rcsb.org/pdb/101/static101.do?p=education_discussion/Looking-at-Structures/Rvalue.html)) reports that R-factors of 0.20 are typical whereas an R-factor for a random set of atoms would be 0.63.
+
+Additionally, the related **R-free** measure was defined as more unbiased approach: It calculates the R-factor for 10% of the experimental data that was removed prior to the refinement (here: refinement is done on 90% of the experimental data).
+
+
+
+<br>
+<br>
 
 <a class="mk-toclify" id="root-mean-square-deviation-rmsd"></a>
 #### Root-mean-square deviation (RMSD) 
@@ -93,6 +124,9 @@ The RMSD is most commonly calculated without taking hydrogen-atoms into consider
 ![Ligand overlay](./images/ligand_overlay_rmsd.png)
 
 (overlay between 2 ligand structures, RMSD = 1.9959 Angstrom)
+
+<br>
+<br>
 
 <a class="mk-toclify" id="virtual-screening"></a>
 #### Virtual screening
