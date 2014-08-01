@@ -57,10 +57,6 @@ if __name__ == '__main__':
     if not os.path.exists(args.OUT_DIR):
         os.mkdir(args.OUT_DIR)
 
-    assert len(sys.argv) == 3
-    multimol2 = sys.argv[1]
-    out_dir = sys.argv[2]
-
     single_mol2s = split_multimol2(args.MOL2_FILE)
     for mol2 in single_mol2s:
         out_mol2 = os.path.join(out_dir, mol2[0]) + '.mol2'
