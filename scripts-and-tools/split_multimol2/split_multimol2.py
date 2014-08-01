@@ -5,14 +5,13 @@ import sys
 import os
 
 
-def split_multimol2(multimol2, generator=False):
+def split_multimol2(multimol2):
     """
     Splits a multi-mol2 file (a mol2 file consisting of multiple mol2 entries)
         into individual mol2-file contents.
 
     Keyword arguments:
         multimol2 (string): path to the multi-mol2 file
-        generator (bool): If True, returns a generator instead of a list.
 
     Returns:
         A generator object for lists for every extracted mol2-file. Lists contain
@@ -21,9 +20,6 @@ def split_multimol2(multimol2, generator=False):
 
     """
     with open(multimol2, 'r') as mol2file:
-        line = ""
-        mol2cont = ""
-        single_mol2s = []
         line = mol2file.readline()
 
         while not mol2file.tell() == os.fstat(mol2file.fileno()).st_size:
