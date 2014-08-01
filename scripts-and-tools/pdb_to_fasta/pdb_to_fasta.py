@@ -147,6 +147,9 @@ if __name__ == '__main__':
     parser.add_argument('-l', '--ligand', action='store_true', help='includes HETATM residues.')
     parser.add_argument('-o', '--out', metavar='out.fasta', type=str, 
             help='writes FASTA strings to an output file instead of printing it to the screen')
+    parser.add_argument('-v', '--version', action='version', version='pdb_to_fasta v. 1.0')
+
+
 
     args = parser.parse_args()
     

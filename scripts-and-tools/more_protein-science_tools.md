@@ -20,6 +20,11 @@ Sebastian Raschka, last updated: 21/07/2014
     - [OpenBabel](#openbabel)
     - [Reduce](#reduce)
     
+- [Ligand structures](#ligand-structures)
+
+	- [OMEGA](#omega)
+
+    
 - [Crystal structure analysis](#crystal-structure-analysis)
 	
 	- [PyWater](#pywater) 
@@ -319,7 +324,7 @@ Website: [http://kinemage.biochem.duke.edu/software/reduce.php](http://kinemage.
 
 *Word, et al.(1999) "Asparagine and glutamine: using hydrogen atom contacts in the choice of sidechain amide orientation" J. Mol. Biol. 285, 1735-1747.*
 
-Usage:
+**Usage:**
 
 	~/Desktop >./reduce -h
 	reduce: version 3.23 05/21/2013, Copyright 1997-2013, J. Michael Word
@@ -350,6 +355,39 @@ Usage:
 
 	reduce -v
 	reduce.3.23.130521
+	
+	
+<a class="mk-toclify" id="ligand-structures"></a>
+## Ligand Structures
+[[back to top](#table-of-contents)]
+
+<br>
+<br>	
+	
+	
+<a class="mk-toclify" id="omega"></a>
+### OMEGA
+[[back to top](#table-of-contents)]
+
+**License**: commercial and academic licenses
+	
+OpenEye OMEGA is a tool that uses a knowledge-based approach to generate hundreds of low-energy conformers of a ligand structure. The emphasis is on efficiency (approx. 2 sec/molecule on a machine with a 2.4 Ghz CPU, 4 GB RAM) and the quality of the generated conformers has been thoroughly validated. 
+
+The approach for low-energy conformer generation by OMEGA can be described in 3 basic steps: First, the creation of an initial 3-dimensional structure based on a fragment library, generation of a large set of conformers based on the number of rotational torsion angles, and sampling using geometric criteria and a energy scoring function based on a simplified MMFF94 force field.
+	
+Website: [http://www.eyesopen.com/omega](http://www.eyesopen.com/omega)
+	
+*Hawkins, Paul C. D., A. Geoffrey Skillman, Gregory L. Warren, Benjamin A. Ellingson, and Matthew T. Stahl. “Conformer Generation with OMEGA: Algorithm and Validation Using High Quality Structures from the Protein Databank and Cambridge Structural Database.” Journal of Chemical Information and Modeling 50, no. 4 (April 26, 2010): 572–84. doi:10.1021/ci100031x.*	
+	
+	
+**Example:**
+
+	/soft/linux64/openeye/bin/omega2 \
+	-in ligand.mol2 \
+	-out confs.mol2 \
+	-warts true \
+	-fraglib /soft/linux64/openeye/data/omega2/fraglib.oeb.gz \
+	-commentEnergy true	
 	
 	
 <br>

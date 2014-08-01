@@ -82,7 +82,7 @@ A ligand pose describes the binding-mode of a ligand in a protein binding site. 
 
 [[back to top](#table-of-contents)]
 
-The RMSD measures the average distance between atoms of 2 protein or ligand structures via the equation
+The Root-mean-square deviation (RMSD) measures the average distance between atoms of 2 protein or ligand structures. This calculation of the Cartesian error follows the equation
 
 ![rmsd equation](./images/rmsd_equation.png)
 

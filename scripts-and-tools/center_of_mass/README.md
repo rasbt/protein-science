@@ -3,6 +3,10 @@
 
 ## Center of Mass
 
+
+Sebastian Raschka, 09/01/2014  
+** Version 1.0**
+
 <br>
 <br>
 

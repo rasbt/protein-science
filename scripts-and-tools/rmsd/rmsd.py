@@ -99,6 +99,7 @@ if __name__ == '__main__':
     parser.add_argument('-l', '--ligand', action='store_true', help='Calculates RMSD between ligand (HETATM) atoms.')
     parser.add_argument('-c', '--carbon', action='store_true', help='Calculates the RMSD between carbon atoms only.')
     parser.add_argument('-ca', '--calpha', action='store_true', help='Calculates the RMSD between alpha-carbon atoms only.')
+    parser.add_argument('-v', '--version', action='version', version='rmsd v. 1.0')
 
 
     args = parser.parse_args()

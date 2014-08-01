@@ -68,6 +68,7 @@ if __name__ == '__main__':
     parser.add_argument('-o', '--out', metavar='out.fasta', type=str, 
                 help='writes atoms to an output file instead of printing it to the screen')
                           
+    parser.add_argument('-v', '--version', action='version', version='grab_atom_radius v. 1.0')
                 
     args = parser.parse_args()
     

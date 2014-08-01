@@ -93,6 +93,10 @@ if __name__ == '__main__':
             default='ATOM,HETATM', 
             metavar='coordinate-ID',
             help='Coordinate lines to include (default: "ATOM,HETATM")')
+            
+    parser.add_argument('-v', '--version', action='version', version='center_of_mass v. 1.0')
+            
+            
     args = parser.parse_args()
     
     print(center_of_mass(args.PDBfile, include=args.include))
