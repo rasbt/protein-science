@@ -388,7 +388,17 @@ Website: [http://www.eyesopen.com/omega](http://www.eyesopen.com/omega)
 	-warts true \
 	-fraglib /soft/linux64/openeye/data/omega2/fraglib.oeb.gz \
 	-commentEnergy true	
-	
+
+- `-commentEnergy`: writes - conformer energy in kcal/mol to be written in the comment field for each conformer.
+- `-warts true`: generates unique titles for conformers (appending underscore and the integer corresponding to the rank order number of the conformer in the final ensemble).
+
+For more info, please use
+
+- `omega2 --help simple`      : Get a list of simple parameters- `omega2 --help all`         : Get a complete list of parameters
+
+![](./images/omega2.png)
+
+**Version:** Omega v. 3.14
 	
 <br>
 <br>
