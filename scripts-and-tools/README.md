@@ -7,6 +7,7 @@ A collection of useful scripts for working with protein files in FASTA, PDB, and
 - [grab_atom_radius.py](#grab_atom_radiuspy)
 - [pdb_to_fasta.py](#pdb_to_fastapy)
 - [rmsd.py](#rmsdpy)
+- [split_multimol2.py](#split_multimol2py)
 
 <hr>
 I would be happy to hear your comments and suggestions. 
@@ -60,3 +61,14 @@ Please feel free to drop me a note via
 [Go to `rmsd.py`](./rmsd)
 
 ![](./rmsd/images/rmsd_poses.png)
+
+
+<br>
+<br>
+
+## split_multimol2.py
+[[back to top](#protein-science---scripts-and-tools)]
+
+[Go to `split_multimol2.py`](./split_multimol2)
+
+![](./split_multimol2/images/overview_1.png)
