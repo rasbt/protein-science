@@ -6,6 +6,7 @@ Last updated: 09/01/2014
 
 #Table of Contents
 - [Apo structure](#apo-structure)
+- [B-factor](#b-factor)
 - [Conformation](#conformation)
 - [High-throughput screening](#high-throughput-screening)
 - [Holo structure](#holo-structure)
@@ -34,6 +35,22 @@ The observed structure of a protein if its ligand is not bound. In contrast to [
 <br>
 <br>
 
+
+<a class="mk-toclify" id="b-factor"></a>
+#### B-factor 
+
+[[back to top](#table-of-contents)]
+
+The B-factor (original name: Debye-Waller factor) is sometimes also called temperature factor, since it describes the thermal mobility of an atom based on the amount of scatter in the X-ray crystallographic experiment.
+
+High B-factor values are usually associated with high mobility of an atom. However, a high B-factor value must not necessarily be associated with a flexible region, but can also indicate experimental uncertainty (i.e., positional errors).  
+Typical B-factor values are around 15-20 A<sup>2</sup>.
+
+
+<br>
+<br>
+
+
 <a class="mk-toclify" id="conformation"></a>
 #### Conformation   
 [[back to top](#table-of-contents)]
@@ -50,7 +67,7 @@ The observed structure of a protein if its ligand is not bound. In contrast to [
 
 [[back to top](#table-of-contents)]  
 
-High-throughput screening (HTS) is an experimental (in contrast to virtual screening) approach for drug discovery that were especially popular in the 1980's and 1990's. HTS uses automated mechanical devices, such as roboters, in order to test up to millions of chemical compounds for activity.
+High-throughput screening (HTS) is an experimental (in contrast to virtual screening) approach for drug discovery that were especially popular in the 1980's and 1990's. HTS uses automated mechanical devices, such as robots, in order to test up to millions of chemical compounds for activity.
 
 <br>
 <br>
