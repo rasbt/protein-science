@@ -40,7 +40,7 @@ Sebastian Raschka, last updated: 21/07/2014
 - [Genomics](#genomics)
 	- [Prodigal](#prodigal)
 	- [khmer](#khmer)
-
+	- [epiviz](#epiviz)
 
 
 
@@ -535,3 +535,18 @@ A library for assembling short-read DNA sequences via  k-mer counting, filtering
 Website: [http://khmer.readthedocs.org](http://khmer.readthedocs.org)
 
 *Crusoe et al., The khmer software package: enabling efficient sequence analysis. 2014.*
+
+<br>
+<br>
+
+<a class="mk-toclify" id="epiviz"></a>
+### epiviz
+
+[[back to top](#table-of-contents)]
+
+
+A web-tool for visualizing and comparing high-throughput Genome sequencing data.
+
+Website: [http://epiviz.cbcb.umd.edu/](http://epiviz.cbcb.umd.edu/)
+
+*Florin Chelaru, Llewellyn Smith, Naomi Goldstein, Héctor Corrada Bravo. Epiviz: interactive visual analytics for functional genomics data. Nature Methods, 2014; DOI: 10.1038/nmeth.3038*
