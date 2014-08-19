@@ -7,6 +7,7 @@ Last updated: 08/19/2014
 #Table of Contents
 - [Apo structure](#apo-structure)
 - [B-factor](#b-factor)
+- [Binding affinity](#binding-affinity)
 - [Conformation](#conformation)
 - [High-throughput screening](#high-throughput-screening)
 - [Holo structure](#holo-structure)
@@ -49,6 +50,35 @@ The B-factor (original name: Debye-Waller factor) is sometimes also called tempe
 High B-factor values are usually associated with high mobility of an atom. However, a high B-factor value must not necessarily be associated with a flexible region, but can also indicate experimental uncertainty (i.e., positional errors).  
 Typical B-factor values are around 15-20 A<sup>2</sup>.
 
+![](./images/3eiy_by_bfactor.png)
+![](./images/bfactor_colorbar.png)
+
+The image above shows a protein (inorganic pyrophosphatase, [3eiy](http://www.rcsb.org/pdb/explore.do?structureId=3EIY)) colored by its B-factor values (PyMol command: `spectrum b, blue_white_red, minimum=20, maximum=50`).
+
+<br>
+<br>
+
+<a class="mk-toclify" id="binding-affinity"></a>
+#### Binding affinity
+
+[[back to top](#table-of-contents)]
+
+Binding affinity describes the strength of intermolecular interactions in a binding interface between a ligand (typically, a small chemical compound) and a protein binding site. The components of intermolecular interactions are composed of electrostatic interactions (ionic bonds), hydrogen bonds, and [van der Waals forces](#van-der-waals-forces).
+
+![](./images/binding_affinity.png)
+
+The binding affinity is defined by the following equation:
+
+![](./images/binding_affinity.gif)
+
+with 
+
+the ideal gas constant:  
+![](./images/gas_constant.gif) 
+
+*T* = Temperature
+
+*&Delta;G* = [Gibbs Free Energy](#gibbs-free-energy)
 
 <br>
 <br>
@@ -147,7 +177,7 @@ The R-factor is one of several measures to assess the quality of a protein cryst
 
 ![](./images/r_factor.gif)
 
-[R = \frac{\sum ||F_{obs}| - |F_{calc}||}{\sum|F_{obs}|}]
+[]
 
 Where *F* is the so-called static structure factor which measures the amount of electron scatter.
 Thus, a perfect R-factor value would be 0; the RCSB ([http://www.rcsb.org](http://www.rcsb.org/pdb/101/static101.do?p=education_discussion/Looking-at-Structures/Rvalue.html)) reports that R-factors of 0.20 are typical whereas an R-factor for a random set of atoms would be 0.63.
