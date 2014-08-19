@@ -10,10 +10,12 @@ Last updated: 09/01/2014
 - [Conformation](#conformation)
 - [High-throughput screening](#high-throughput-screening)
 - [Holo structure](#holo-structure)
+- [Lennard-Jones Potential](#lennard-jones-potential)
 - [Orientation](#orientation)
 - [Pose](#pose)
 - [R-factor](#r-factor)
 - [Root-mean-square deviation (RMSD)](#root-mean-square-deviation-rmsd)
+- [Van der Waals force](#van-der-waals-force)
 - [Virtual screening](#virtual-screening)
 
 
@@ -82,6 +84,23 @@ The observed structure of a protein in its ligand bound state. In contrast to [a
 <br>
 <br>
 
+<a class="mk-toclify" id="lennard-jones-potential"></a>
+#### Lennard-Jones Potential
+
+The Lennard-Jones potential describes the energy potential between two non-bonded atoms based on their distance to each other; it is a mathematical approximation that is used in molecular dynamics to estimate the [van der Waals force](#van-der-waals-force).
+
+![](./images/lennard_jones_1.gif)
+
+V = intermolecular potential  
+&sigma; = distance where V is 0  
+r = distance between atoms, measured from one center to the other  
+&epsilon; = interaction strength
+
+![](./images/lennard_jones_graph_1.png)
+
+<br>
+<br>
+
 <a class="mk-toclify" id="orientation"></a>
 #### Orientation
 
@@ -141,6 +160,20 @@ The RMSD is most commonly calculated without taking hydrogen-atoms into consider
 ![Ligand overlay](./images/ligand_overlay_rmsd.png)
 
 (overlay between 2 ligand structures, RMSD = 1.9959 Angstrom)
+
+
+<br>
+<br>
+
+<a class="mk-toclify" id="van-der-waals-force"></a>
+#### Van der Waals force
+
+[[back to top](#table-of-contents)]
+
+The Van der Waals force (after Johannes Diderik van der Waals) describes the sum of attractive and repulsive forces between atoms or molecules between dipole interactions. Basically, van der Waals forces describe the interaction between atoms that are not based on covalent bonds, hydrogen bonds, or other electrostatic interaction.  
+In molecular dynamics, the van der Waals force is often approximated by the [Lennard-Jones potential](#lennard-jones-potential).
+
+![](./images/van_der_waals.png)
 
 <br>
 <br>
