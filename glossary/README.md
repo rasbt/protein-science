@@ -1,6 +1,6 @@
 Sebastian Raschka
 
-Last updated: 09/01/2014
+Last updated: 08/19/2014
 
 <a class="mk-toclify" id="table-of-contents"></a>
 
@@ -11,6 +11,7 @@ Last updated: 09/01/2014
 - [High-throughput screening](#high-throughput-screening)
 - [Holo structure](#holo-structure)
 - [Lennard-Jones Potential](#lennard-jones-potential)
+- [Molecular Mechanics and Molecular Dynamics](#molecular-mechanics-and-molecular-dynamics)
 - [Orientation](#orientation)
 - [Pose](#pose)
 - [R-factor](#r-factor)
@@ -87,6 +88,8 @@ The observed structure of a protein in its ligand bound state. In contrast to [a
 <a class="mk-toclify" id="lennard-jones-potential"></a>
 #### Lennard-Jones Potential
 
+[[back to top](#table-of-contents)]
+
 The Lennard-Jones potential describes the energy potential between two non-bonded atoms based on their distance to each other; it is a mathematical approximation that is used in molecular dynamics to estimate the [van der Waals force](#van-der-waals-force).
 
 ![](./images/lennard_jones_1.gif)
@@ -97,6 +100,18 @@ r = distance between atoms, measured from one center to the other
 &epsilon; = interaction strength
 
 ![](./images/lennard_jones_graph_1.png)
+
+<br>
+<br>
+
+<a class="mk-toclify" id="molecular-mechanics-and-molecular-dynamics"></a>
+#### Molecular Mechanics and Molecular Dynamics 
+
+[[back to top](#table-of-contents)]
+
+Molecular Mechanics uses principles based on Newtonian mechanics to model molecular systems and so-called force fields to calculate potential energies of a molecular system.
+
+Molecular Dynamics refers to computer simulations that involve the modeling of interactions and motions of a molecular system over time.
 
 <br>
 <br>
