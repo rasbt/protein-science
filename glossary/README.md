@@ -9,6 +9,7 @@ Last updated: 08/19/2014
 - [B-factor](#b-factor)
 - [Binding affinity](#binding-affinity)
 - [Conformation](#conformation)
+- [Gibbs Free Energy](#gibbs-free-energy)
 - [High-throughput screening](#high-throughput-screening)
 - [Holo structure](#holo-structure)
 - [Lennard-Jones Potential](#lennard-jones-potential)
@@ -91,6 +92,32 @@ the ideal gas constant:
 - Ligands/proteins can exist in different conformations. Usually, "conformation" refers to the same chemical composition but with altered bond-angles between two/multiple ligands or proteins. See also [orientation](#orientation).
 
 ![ligand conformation](./images/ligand_conformation.png)
+
+<br>
+<br>
+
+
+
+<a class="mk-toclify" id="gibbs-free-energy"></a>
+#### Gibbs Free Energy 
+
+[[back to top](#table-of-contents)]  
+
+Gibbs Free Energy is often used to describe the thermodynamic potential of a chemical reaction where a negative value is considered as "favorable", and a positive value is considered as "unfavorable", respectively.
+
+For constant temperature, the change of the Gibbs Free Energy is defined as 
+
+![](./images/gibbs_free_energy_1.gif)
+
+&Delta;H = Enthalpy change  
+&Delta;S = Entropy change  
+T = temperature
+
+And under equilibrium conditions, the Gibbs Free Energy can be reformulated as
+
+![](./images/gibbs_free_energy_2.gif)
+
+where *K<sub>eq</sub>* is the equilibrium constant.
 
 <br>
 <br>
