@@ -9,6 +9,8 @@ Last updated: 08/19/2014
 - [B-factor](#b-factor)
 - [Binding affinity](#binding-affinity)
 - [Conformation](#conformation)
+- [Conformation Entropy](#conformation-entropy)
+- [Entropy](#entropy)
 - [Gibbs Free Energy](#gibbs-free-energy)
 - [High-throughput screening](#high-throughput-screening)
 - [Holo structure](#holo-structure)
@@ -89,13 +91,50 @@ the ideal gas constant:
 #### Conformation   
 [[back to top](#table-of-contents)]
 
-- Ligands/proteins can exist in different conformations. Usually, "conformation" refers to the same chemical composition but with altered bond-angles between two/multiple ligands or proteins. See also [orientation](#orientation).
+Ligands/proteins can exist in different conformations. Usually, "conformation" refers to the same chemical composition but with altered bond-angles between two/multiple ligands or proteins. See also [orientation](#orientation).
 
 ![ligand conformation](./images/ligand_conformation.png)
 
 <br>
 <br>
 
+
+<a class="mk-toclify" id="conformation-entropy"></a>
+#### Conformation Entropy
+[[back to top](#table-of-contents)]
+
+In the studies of macromolecules, conformational [entropy](#entropy) is often used synonymous to configurational entropy, which refers to the positional states of particles considering the underlying energy distribution of the system.  
+In practice, the entropy of a macromolecular is often assessed by evaluating the number of rotamers ([conformation](#conformation)s that arise upon the rotation of single rotatable bonds) that can occur considering constraints such as bond angles (assessed via energy levels). Based on the energy levels, the probability (occcupancy) of a state can be calculated.
+
+<br>
+<br>
+
+
+<a class="mk-toclify" id="entropy"></a>
+#### Entropy  
+[[back to top](#table-of-contents)]
+
+The most common interpretation is that entropy describes the degree of disorder of a closed thermodynamic system. According to the second law of thermodynamics, entropy increases in such a closed thermodynamic system over time until it reaches thermodynamic equilibrium where the entropy it at maximum.  
+Here, the definition of "disorder" can be understood as the number of combinations of microstates that yield a equivalent macrostate. 
+
+*S = k<sub>B</sub> ln &Omega;*
+
+where 
+S = entropy  
+&Omega; = total number of possible microstates  
+k<sub>B</sub> = Boltzmann constant
+
+
+The change in entropy in a thermodynamic system is often described as:
+
+![](./images/entropy_change_1.png)
+
+where  
+T = temperature  (constant)  
+Q = heat
+
+<br>
+<br>
 
 
 <a class="mk-toclify" id="gibbs-free-energy"></a>
