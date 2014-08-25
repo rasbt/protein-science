@@ -13,6 +13,7 @@ Last updated: 08/19/2014
 - [Entropy](#entropy)
 - [Gibbs Free Energy](#gibbs-free-energy)
 - [High-throughput screening](#high-throughput-screening)
+- [Hydrophobic interaction](#hydrophobic-interaction)
 - [Holo structure](#holo-structure)
 - [Lennard-Jones Potential](#lennard-jones-potential)
 - [Molecular Mechanics and Molecular Dynamics](#molecular-mechanics-and-molecular-dynamics)
@@ -170,6 +171,22 @@ High-throughput screening (HTS) is an experimental (in contrast to virtual scree
 
 <br>
 <br>
+
+<a class="mk-toclify" id="hydrophobic-interaction"></a>
+#### Hydrophobic interaction   
+
+[[back to top](#table-of-contents)]  
+
+Hydrophobic interactions are occurring between molecules that have a low water solubility: Those molecules tend to "clump" together in aqueous solutions in order to decrease the surface area that is exposed to the surrounding water molecules.
+
+In the context of binding free energies (see [Gibbs Free Energy](gibbs-free-energy)), hydrophobic interactions between two molecules are entropically (not enthalpically)  favorable by causing the release of water molecules from the hydrophobic molecular surface upon complex formation.
+
+![](./images/hydrophobic_interaction_1.png)
+
+
+<br>
+<br>
+
 
 <a class="mk-toclify" id="holo-structure"></a>
 #### Holo structure    
