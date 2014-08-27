@@ -23,6 +23,7 @@ Sebastian Raschka, last updated: 21/07/2014
 - [Ligand structures](#ligand-structures)
 
 	- [OMEGA](#omega)
+	- [ROCS](#rocs)
 
     
 - [Crystal structure analysis](#crystal-structure-analysis)
@@ -373,6 +374,8 @@ Website: [http://kinemage.biochem.duke.edu/software/reduce.php](http://kinemage.
 	
 OpenEye OMEGA is a tool that uses a knowledge-based approach to generate hundreds of low-energy conformers of a ligand structure. The emphasis is on efficiency (approx. 2 sec/molecule on a machine with a 2.4 Ghz CPU, 4 GB RAM) and the quality of the generated conformers has been thoroughly validated. 
 
+![](./images/omega2.png)
+
 The approach for low-energy conformer generation by OMEGA can be described in 3 basic steps: First, the creation of an initial 3-dimensional structure based on a fragment library, generation of a large set of conformers based on the number of rotational torsion angles, and sampling using geometric criteria and a energy scoring function based on a simplified MMFF94 force field.
 	
 Website: [http://www.eyesopen.com/omega](http://www.eyesopen.com/omega)
@@ -396,9 +399,50 @@ For more info, please use
 
 - `omega2 --help simple`      : Get a list of simple parameters- `omega2 --help all`         : Get a complete list of parameters
 
-![](./images/omega2.png)
-
 **Version:** Omega v. 3.14
+
+<br>
+<br>
+
+<a class="mk-toclify" id="rocs"></a>
+### ROCS
+[[back to top](#table-of-contents)]
+
+**License**: commercial and academic licenses
+	
+OpenEye ROCS is a tool for overlaying chemical structures with a target molecule based on smilarities of shape and chemistry.
+
+![](./images/rocs_1.png)
+
+The rapid generation of overlays and its support for multiprocessing makes it a feasible tool for virtual screening - OpenEye reports that about 20-40 molecules per second can be overlayed using a single CPU of a standard computer (2.4 Ghz CPU, 4 GB RAM).
+
+The result of a ROCS run consists of the overlayed compounds in common structure formats such as MOL2 as well as a report file with various different scores that can be used to rank the overlayed compounds based on volumetrical and chemistry matches.
+	
+Website: [http://www.eyesopen.com/rocs](http://www.eyesopen.com/rocs)
+	
+*Hawkins, P.C.D.; Skillman, A.G. and Nicholls, A., Comparison of Shape-Matching and Docking as Virtual Screening Tools, Journal of Medicinal Chemistry, Vol. 50, pp. 74-82, 2007.*	
+	
+	
+**Example:**
+
+	/soft/linux64/openeye/bin/rocs \
+    -query query.mol2 \
+    -dbase db.mol2 \
+    -randomstarts 20 -stats best -besthits 0 -maxhits 0 -maxconfs 1 \
+    -rankby TanimotoCombo \
+    -mcquery \
+    -prefix /home/user/my_dir/my_rocs_run \    
+    -cutoff 0.5 \
+    -reportfile /home/user/my_dir/my_rocs_run.rpt -oformat mol2 -report one
+    
+
+ 
+Detailed documentation and more command line options can be found [here](http://www.eyesopen.com/docs/rocs/current/html/usage.html#cmdoption-rocs-mcquery).
+
+
+
+
+
 	
 <br>
 <br>
