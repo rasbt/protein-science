@@ -19,11 +19,15 @@ Last updated: 08/19/2014
 - [Molecular Mechanics and Molecular Dynamics](#molecular-mechanics-and-molecular-dynamics)
 - [Orientation](#orientation)
 - [Pose](#pose)
+- [Protein folding core](#protein-folding-core)
 - [R-factor](#r-factor)
 - [Root-mean-square deviation (RMSD)](#root-mean-square-deviation-rmsd)
 - [Van der Waals force](#van-der-waals-force)
 - [Virtual screening](#virtual-screening)
 
+<br>
+
+- [References](#references)
 
 
 
@@ -251,6 +255,21 @@ A ligand pose describes the binding-mode of a ligand in a protein binding site. 
 <br>
 <br>
 
+<a class="mk-toclify" id="protein-folding-core"></a>
+#### Protein folding core 
+
+[[back to top](#table-of-contents)]
+
+Protein unfolding can be described as a process of thermal denaturation of proteins where non-covalent bonds such as electrostatic interactions (salt bridges) and hydrogen-bonds are successively "broken" in response to an increase of temperature (or energy). This process can be seen as a transition from a relatively rigid (folded) protein structure into an ensemble of relatively more flexible denatured structures.
+
+The folding core can be defined as the region of the protein (two or more secondary structures) that maintains integrity longest during the unfolding process (i.e., the region of "greatest" stability). [[1](#references)]
+
+
+<br>
+<br>
+
+
+
 <a class="mk-toclify" id="r-factor"></a>
 #### R-factor
 
@@ -312,3 +331,12 @@ In molecular dynamics, the van der Waals force is often approximated by the [Len
 [[back to top](#table-of-contents)]
 
 Virtual screening (VS) is a computer-aided, knowledge-driven approach for drug-discovery (in contrast to the experimental High-throughput screening (HTS)). Typically, a large database of small, drug-like compounds is screened for molecules that can fit into a protein-receptor binding interface.
+
+<br>
+<br>
+
+<a class="mk-toclify" id="references"></a>
+## References
+[[back to top](#table-of-contents)]
+
+[1] B. M. Hespenheide, A. Rader, M. Thorpe, and L. A. Kuhn. Identifying protein folding cores from the evolution of flexible regions during unfolding. Journal of Molecular Graphics and Modelling, 21(3):195– 207, 2002.
