@@ -261,8 +261,10 @@ A ligand pose describes the binding-mode of a ligand in a protein binding site. 
 [[back to top](#table-of-contents)]
 
 Protein unfolding can be described as a process of thermal denaturation of proteins where non-covalent bonds such as electrostatic interactions (salt bridges) and hydrogen-bonds are successively "broken" in response to an increase of temperature (or energy). This process can be seen as a transition from a relatively rigid (folded) protein structure into an ensemble of relatively more flexible denatured structures.
+One of the most popular experimental techniques to study the unfolding process is hydrogen-deuterium exchange (H–D exchange) NMR.
 
 The folding core can be defined as the region of the protein (two or more secondary structures) that maintains integrity longest during the unfolding process (i.e., the region of "greatest" stability). [[1](#references)]
+
 
 
 <br>
