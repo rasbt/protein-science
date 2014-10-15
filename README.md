@@ -85,7 +85,7 @@ Discussions and questions about methods, approaches, and tools for estimating (r
 # Scripts and Tools
 [[back to top](#about-this-repository)]
 
-
+- A useful [one-liner cheatsheet](./scripts-and-tools/oneliner.md) for quick and simple commands for working with protein structure files.
 
 - the **[`scripts-and-tools`](./scripts-and-tools)** subdirectory with tools for, e.g., 
 	- calculating the center of mass of protein and ligands
