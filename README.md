@@ -101,6 +101,8 @@ Discussions and questions about methods, approaches, and tools for estimating (r
 
 - a **[list of more useful tools](./scripts-and-tools/more_protein-science_tools.md)**, such as tools for adding hydrogen atoms to molecules, scoring of protein-ligand binding interfaces, file conversion ...
 
+- **[PDB Info Table](https://github.com/rasbt/datacollect/tree/master/pdb_infotable)** - A simple command line tool that creates an info table from a list of PDB files.
+
 <br>
 <br>
 <br>
