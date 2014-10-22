@@ -21,7 +21,7 @@ Please feel free to drop me a note via
 <br>
 
 
-The `renumber.py` script renumbers atoms and/or residues in a PDB file.
+The `renumber_pdb.py` script renumbers atoms and/or residues in a PDB file.
 
 ### Requirements:
 
@@ -32,10 +32,10 @@ The `renumber.py` script renumbers atoms and/or residues in a PDB file.
 
 ### Usage:
 
-run `python renumber.py --help` for the usage information:
+run `python renumber_pdb.py --help` for the usage information:
 
 <pre>
-usage: renumber.py [-h] [-i INPUT] [-s START] [-a] [-r] [-c]
+usage: renumber_pdb.py [-h] [-i INPUT] [-s START] [-a] [-r] [-c]
 
 Renumber residues in a pdb file
 
@@ -58,7 +58,7 @@ optional arguments:
 
 ### Command:
 
-	python renumber.py -i examples/example_1.pdb -a -r  > examples/out_1.pdb
+	python renumber_pdb.py -i examples/example_1.pdb -a -r  > examples/out_1.pdb
 
 ### Input:
 <pre>
