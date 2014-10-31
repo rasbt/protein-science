@@ -103,7 +103,7 @@ if __name__ == '__main__':
     else:
         start = int(args.start)
 
-    if not args.atoms or not args.residues:
+    if not args.atoms and not args.residues:
         print('{0}\nPlease provide at least the --atoms or --residues flag.\n{0}'.format(50* '-'))
         parser.print_help()
         quit()
