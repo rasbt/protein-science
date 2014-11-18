@@ -9,6 +9,10 @@ The Iridium database by OpenEye Scientific Software contains high-quality, verif
 
 The database is freely available at [http://www.eyesopen.com/iridium](http://www.eyesopen.com/iridium)
 
+** A more detailed table can be found [here](./iridium_table.csv) **
+
+<a href="./iridium_table.csv"><img src='./images/iridium_detailed.png', alt=''></a>
+
 <br>
 <br>
 
