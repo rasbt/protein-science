@@ -25,6 +25,8 @@ Sebastian Raschka, last updated: 21/07/2014
 	- [OMEGA](#omega)
 	- [ROCS](#rocs)
 
+- [Energy Minimization](#energy-minimization)
+	- [Fast and efficient minimization via OpenEye Szybki](#fast-and-efficient-minimization-via-OpenEye-Szybki)
     
 - [Crystal structure analysis](#crystal-structure-analysis)
 	
@@ -440,9 +442,33 @@ Website: [http://www.eyesopen.com/rocs](http://www.eyesopen.com/rocs)
 Detailed documentation and more command line options can be found [here](http://www.eyesopen.com/docs/rocs/current/html/usage.html#cmdoption-rocs-mcquery).
 
 
+<br>
+<br>
+
+<a id='energy-minimization'></a>
+## Energy Minimization
+
+<br>
+<br>
 
 
+<a id='fast-and-efficient-minimization-via-OpenEye-Szybki'></a>
+### Fast and efficient minimization via OpenEye Szybki
 
+#### Example:
+ 
+An example for optimizing the hydrogen atoms in a protein-ligand complex. Here, only the protein hydrogen atoms in the 5-Angstrom neighborhood of the ligand (via `polarH 5`) are optimized as well as the ligand's hydrogen atoms (via `-optGeometry Honly`). Except for the hydrogen atoms, the ligand is treated as a rigid body that can undergo transitional and not conformational change during the optimization.
+ 
+ 
+ 	szybki -ligands <your_lig.mol2> \
+ 	-protein <your_prot.pdb> \
+ 	-out <out.mol2> \
+ 	-out_protein <prot.pdb> \
+ 	-optGeometry Honly \
+ 	-polarH 5
+ 	
+See the [full documentation of OpenEye Szybki v. 1.8](http://www.eyesopen.com/szybki).	
+ 	
 	
 <br>
 <br>
