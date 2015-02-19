@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
     single_mol2s = split_multimol2(args.MOL2_FILE)
     for mol2 in single_mol2s:
-        out_mol2 = os.path.join(out_dir, mol2[0]) + '.mol2'
+        out_mol2 = os.path.join(args.OUT_DIR, mol2[0]) + '.mol2'
         with open(out_mol2, 'w') as out_file:
             for line in mol2[1]:
                 out_file.write(line)
