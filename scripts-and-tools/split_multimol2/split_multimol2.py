@@ -63,6 +63,7 @@ if __name__ == '__main__':
         with open(out_mol2, 'w') as out_file:
             for line in mol2[1]:
                 out_file.write(line)
+            out_file.write('\n')
 
 
 
