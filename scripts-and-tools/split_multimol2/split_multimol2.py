@@ -105,7 +105,7 @@ def write_multimol2_chunks(multimol2, chunk_size, out_dir):
     out_file = open(os.path.join(out_dir, out_file_stem)+'_%d.mol2' % chunks, 'w')
     for mol2 in split_multimol2(multimol2):
         cnt += 1
-        if cnt >= chunk_size:
+        if cnt == chunk_size:
             cnt = 0
             chunks += 1
             out_file.close()
