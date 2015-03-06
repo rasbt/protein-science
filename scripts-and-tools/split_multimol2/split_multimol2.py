@@ -60,17 +60,16 @@ def write_multimol2(multimol2, out_dir):
       Number of files written.
 
     """
-    if not os.path.exists(args.OUT_DIR):
-        os.mkdir(args.OUT_DIR)
+    if not out_dir:
+        os.mkdir(out_dir)
 
-    if not args.chunksize:
-        single_mol2s = split_multimol2(args.MOL2_FILE)
-        for mol2 in single_mol2s:
-            out_mol2 = os.path.join(args.OUT_DIR, mol2[0]) + '.mol2'
-            with open(out_mol2, 'w') as out_file:
-                for line in mol2[1]:
-                    out_file.write(line)
-                out_file.write('\n')
+    single_mol2s = split_multimol2(args.MOL2_FILE)
+    for mol2 in single_mol2s:
+        out_mol2 = os.path.join(args.OUT_DIR, mol2[0]) + '.mol2'
+        with open(out_mol2, 'w') as out_file:
+            for line in mol2[1]:
+                out_file.write(line)
+            out_file.write('\n')
 
 
 def write_multimol2_chunks(multimol2, chunk_size, out_dir):
