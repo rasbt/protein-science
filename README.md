@@ -21,8 +21,6 @@ During my work and hobbies, I started accumulating useful material about differe
 - [Useful Links](#useful-links)
 
 
-- a **[list of more useful tools](./scripts-and-tools/more_protein-science_tools.md)**, such as tools for adding hydrogen atoms to molecules, scoring of protein-ligand binding interfaces, file conversion ...
-
 <br>
 <br>
 

@@ -15,7 +15,7 @@ Sebastian Raschka, last updated: 05/13/2015
     - [AutoDock Vina](#autodock-vina)
     - [DrugScoreX](#drugscorex)
     - [LigScore](#ligscore)
-    - [DOCK 6 Amber Score](#"dock-6-amber-score")
+    - [DOCK 6 Amber Score](#dock-6-amber-score)
     
 - [Protein file and structure processing](#protein-file-and-structure-processing)
     - [OpenBabel](#openbabel)
