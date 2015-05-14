@@ -89,11 +89,13 @@ Discussions and questions about methods, approaches, and tools for estimating (r
 - A useful [one-liner cheatsheet](./scripts-and-tools/oneliner.md) for quick and simple commands for working with protein structure files.
 
 - the **[`scripts-and-tools`](./scripts-and-tools)** subdirectory with tools for, e.g., 
-	- calculating the center of mass of protein and ligands
-	- converting PDB files into FASTA strings
-	- calculating the RMSD between two molecules
-	- extracting coordinates from PDB files 
-
+	- [`center_of_mass.py`](./scripts-and-tools/center_of_mass) - calculating the center of mass of protein and ligands 
+	- [`pdb_to_fasta.py`](./scripts-and-tools/pdb_to_fasta) - converting PDB files into FASTA strings
+	- [`rmsd.py`](./scripts-and-tools/rmsd) - calculating the RMSD between two molecules
+	- [`grab_atom_radius.py`](./scripts-and-tools/grab_atom_radius) - extracting coordinates from PDB files 
+	- [`renumber_pdb.py`](./scripts-and-tools/renumber_pdb) - renumbering atoms and residues in PDB files
+	- [`split_multimol2.py`](./scripts-and-tools/split_multimol2) - splitting a multi-MOL2 file into individual MOL2 files
+	- [`strip_h.py`](./scripts-and-tools/strip_h) - stripping Hydrogen atoms for single PDB files or nested directories of PDB files
 
 
 - **[smilite](https://github.com/rasbt/smilite)** - a Python module to download and analyze SMILE strings (Simplified Molecular-Input Line-entry System) of chemical compounds from ZINC
