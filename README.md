@@ -8,17 +8,20 @@ During my work and hobbies, I started accumulating useful material about differe
 <br>
 <br>
 
-
+- [Software Quick Guides](./scripts-and-tools/more_protein-science_tools.md)
 - [Tutorials](#tutorials)
     - [Substructure Alignment Using OpenEye OEChem RMSD](#substructure-alignment-using-openeye-oechem-rmsd)
     - [Low-Energy Conformer Generation and Overlay](#low-energy-conformer-generation-and-overlay)
 	- [Molecular docking, estimating free energies of binding, and AutoDock's semi-empirical force field](#molecular-docking-estimating-free-energies-of-binding-and-autodocks-semi-empirical-force-field)
+
 - [Scripts and Tools](#scripts-and-tools)
 - [Info Sheets](#info-sheets)
 - [Literature](#literature)
 - [Protein Science Glossary](#protein-science-glossary)
 - [Useful Links](#useful-links)
 
+
+- a **[list of more useful tools](./scripts-and-tools/more_protein-science_tools.md)**, such as tools for adding hydrogen atoms to molecules, scoring of protein-ligand binding interfaces, file conversion ...
 
 <br>
 <br>
@@ -99,7 +102,6 @@ Discussions and questions about methods, approaches, and tools for estimating (r
 
 - **[pyprot](https://github.com/rasbt/pyprot)** - a Python package for working with protein structure files formats. It comes with a collection of ready-to-use scripts for the most common file operations and protein analyses.
 
-- a **[list of more useful tools](./scripts-and-tools/more_protein-science_tools.md)**, such as tools for adding hydrogen atoms to molecules, scoring of protein-ligand binding interfaces, file conversion ...
 
 - **[PDB Info Table](https://github.com/rasbt/datacollect/tree/master/pdb_infotable)** - A simple command line tool that creates an info table from a list of PDB files.
 

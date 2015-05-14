@@ -1,4 +1,4 @@
-Sebastian Raschka, last updated: 21/07/2014
+Sebastian Raschka, last updated: 05/13/2015
 
 
 # Useful programs and tools for protein science
@@ -15,6 +15,7 @@ Sebastian Raschka, last updated: 21/07/2014
     - [AutoDock Vina](#autodock-vina)
     - [DrugScoreX](#drugscorex)
     - [LigScore](#ligscore)
+    - [DOCK 6 Amber Score](#"dock-6-amber-score")
     
 - [Protein file and structure processing](#protein-file-and-structure-processing)
     - [OpenBabel](#openbabel)
@@ -271,6 +272,138 @@ Not individually available for `ligand_score`, see IMP version (IMP 2.2.0).
 <br>
 <br>
 <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="mk-toclify" id="dock-6-amber-score"></a>
+### DOCK 6 Amber Score
+[[back to top](#table-of-contents)]
+
+**License**: Available free of charge for academic institutions, but there is a licensing fee for industrial organizations.
+
+DOCK 6 is a docking tool that also offers several different scoring functions that can be used for re-scoring already docked protein-ligand complexes. Below is an example for how to use Amber score (more details can be found in the DOCK6 manual at [http://dock.compbio.ucsf.edu/DOCK_6/dock6_manual.htm#Scoring](http://dock.compbio.ucsf.edu/DOCK_6/dock6_manual.htm#Scoring).
+
+
+
+<pre>dock6 -h
+
+
+
+--------------------------------------
+DOCK v6.7
+
+Released February 2015
+Copyright UCSF
+--------------------------------------
+
+
+Usage:
+	dock6 -i filename.in [-o filename.out] [-v]</pre>
+**Example:**
+
+Amber score performs minimization, a Molecular Dynamics simulation, energy minimization on protein ligand complex, and a more detailed tutorial about how the score is calculated from the different energy terms can be found at [http://dock.compbio.ucsf.edu/DOCK_6/tutorials/amber_score/amber_score.htm](http://dock.compbio.ucsf.edu/DOCK_6/tutorials/amber_score/amber_score.htm). 
+
+For the following example, assume that we have prepared the protein and ligand accordingly, i.e., we removed ligands, metals, and water molecules from the protein PDB file and assigned the correct protonations states for histidine residues.
+
+	prepare_amber.pl lig.mol2 1a9x.pdb
+	
+(The perl script `prepare_amber.pl` should be located in the directory of the DOCK6 binary files, `dock6/bin`)
+	
+Next, we create a `dock.in` file that has the following contents:
+
+<pre>ligand_atom_file                                             lig.amber_score.mol2
+limit_max_ligands                                            no
+skip_molecule                                                no
+read_mol_solvation                                           no
+calculate_rmsd                                               no
+use_database_filter                                          no
+orient_ligand                                                no
+use_internal_energy                                          no
+flexible_ligand                                              no
+bump_filter                                                  no
+score_molecules                                              yes
+contact_score_primary                                        no
+contact_score_secondary                                      no
+grid_score_primary                                           no
+grid_score_secondary                                         no
+multigrid_score_primary                                      no
+multigrid_score_secondary                                    no
+dock3.5_score_primary                                        no
+dock3.5_score_secondary                                      no
+continuous_score_primary                                     no
+continuous_score_secondary                                   no
+descriptor_score_primary                                     no
+descriptor_score_secondary                                   no
+gbsa_zou_score_primary                                       no
+gbsa_zou_score_secondary                                     no
+gbsa_hawkins_score_primary                                   no
+gbsa_hawkins_score_secondary                                 no
+SASA_descriptor_score_primary                                no
+SASA_descriptor_score_secondary                              no
+amber_score_primary                                          yes
+amber_score_secondary                                        no
+amber_score_receptor_file_prefix                             1a9x
+amber_score_movable_region                                   ligand
+amber_score_minimization_rmsgrad                             0.01
+amber_score_before_md_minimization_cycles                    100
+amber_score_md_steps                                         3000
+amber_score_after_md_minimization_cycles                     100
+amber_score_gb_model                                         5
+amber_score_nonbonded_cutoff                                 18.0
+amber_score_temperature                                      300.0
+amber_score_abort_on_unprepped_ligand                        yes
+ligand_outfile_prefix                                        output
+write_orientations                                           no
+num_scored_conformers                                        1
+rank_ligands                                                 no</pre>
+
+
+In the last step, we use the `dock6` executable to re-score the complex using the `dock.in` file.
+
+	dock6 -i dock.in > dock.out 
+	
+At the bottom of the dock.out file, we find the Amber scores:
+
+	[...]
+	Molecule: *****
+
+ 	Elapsed time for docking:  34 seconds
+
+ 	Anchors:       1
+ 	Orientations:      1
+ 	Conformations:     1
+
+   	Amber Score:          -19.431744
+        complex:        50250.946122
+       receptor:       -50307.949484
+         ligand:           37.571619
+
+
+	1 Molecules Processed
+	Total elapsed time: 41 seconds
+
+
+**Version:**
+
+DOCK v6.7
+
+<br>
+<br>
+<br>
+<br>
+
+
+
 
 <a class="mk-toclify" id="protein-file-and-structure-processing"></a>
 ## Protein file and structure processing
