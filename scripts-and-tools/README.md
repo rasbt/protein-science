@@ -6,7 +6,7 @@ A collection of useful scripts for working with protein files in FASTA, PDB, and
 - [center_of_mass.py](#center_of_masspy)
 - [grab_atom_radius.py](#grab_atom_radiuspy)
 - [pdb_to_fasta.py](#pdb_to_fastapy)
-- [renumber_pdb.py](#renumber-pdbpy)
+- [renumber_pdb.py](#renumber_pdbpy)
 - [rmsd.py](#rmsdpy)
 - [split_multimol2.py](#split_multimol2py)
 - [strip_h.py](#strip_h)
