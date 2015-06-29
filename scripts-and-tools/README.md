@@ -9,7 +9,7 @@ A collection of useful scripts for working with protein files in FASTA, PDB, and
 - [renumber_pdb.py](#renumber_pdbpy)
 - [rmsd.py](#rmsdpy)
 - [split_multimol2.py](#split_multimol2py)
-- [strip_h.py](#strip_h)
+- [strip_h.py](#strip_hpy)
 
 <hr>
 I would be happy to hear your comments and suggestions. 
